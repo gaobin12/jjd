@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <!--不缓存-->
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+        <meta http-equiv="expires" content="0">
+        <meta name="x5-fullscreen" content="true">
+        <meta name="full-screen" content="yes">
+        <title>今借到</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <!-- Browser -->
+        <meta name="format-detection" content="telephone=no, email=no, datetime=no"/>
+        <script type="text/javascript" src="/js/jquery.min.js"></script>
+        <script>
+            $.ajaxE = function(ob){
+                ob.url = location.origin + '/jjdApi'+ ob.url;
+                if (ob.type == "GET") {
+                } else {
+                    ob.data = JSON.stringify(ob.data);
+                    ob.contentType = 'application/json';
+                }
+                $.ajax(ob)
+            }
+            function getUrlParams(){
+                var url = location.search; //获取url中"?"符后的字串  
+                var theRequest = new Object();  
+                if (url.indexOf("?") != -1) {  
+                    var str = url.substr(1);  
+                    strs = str.split("&");  
+                    for(var i = 0; i < strs.length; i ++) {  
+                        theRequest[strs[i].split("=")[0]]=unescape(strs[i].split("=")[1]);  
+                    }
+                }  
+                return theRequest;  
+            }
+            //微信登录
+            function onWXLogin(){
+                sessionStorage.clear();
+                var state = getUrlParams();
+                $.ajaxE({
+                    type: 'GET',
+                    url: '/user/passport/init',
+                    data:{
+                        code: state.code
+                    },
+                    success:function(res){
+                        if(res.status == 200){    
+                            sessionStorage.setItem('userInfo', JSON.stringify(res.data));
+                            sessionStorage.setItem('token', res.data.token);
+                            //微信登陆成功，获取微信签名
+                            getUserCreditInfo(res.data.userId,state.state);
+                        }else if(res.status == 401){
+                            sessionStorage.setItem('userInfo', JSON.stringify(res.data));
+                            //微信登陆成功，获取微信签名
+                            //this.getTencentSign();
+                            if(state.state == 'STATE'){
+                                location.href = location.origin;
+                            }else{
+                                location.href = location.origin+state.state;
+                            }
+                        }else{
+                            alert(res.msg);
+                        }
+                    },
+                    error:function(err){
+                        alert('系统异常');
+                    }
+                })
+            }
+            //获取用户认证信息
+            function getUserCreditInfo(id,pageUrl){
+                $.ajaxE({
+                    type: 'GET',
+                    //校验用户信用接口
+                    url: '/user/my/checkCredit',
+                    data: {
+                        userId:id,
+                    },
+                    success:function(res){
+                        if(res.status == 200){    
+                            sessionStorage.setItem('creditInfo',JSON.stringify(res.data));
+                            if(pageUrl == 'STATE'){
+                                location.href = location.origin;
+                            }else{
+                                location.href = location.origin + pageUrl;
+                            }
+                        }else{
+                            alert('获取用户认证信息失败');
+                        }
+                    },
+                    error:function(err){
+                        alert('系统异常');
+                    }
+                });
+            }
+
+            onWXLogin();     
+        </script>
+    </head>
+    <body>
+    </body>
+</html>

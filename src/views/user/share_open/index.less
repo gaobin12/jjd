@@ -1,0 +1,110 @@
+.view-share-open {
+    // 头部
+    .share_top {
+        width: 100%;
+        background: #ff963a;
+        height: 0.5rem;
+    }
+    .share_top .logo1 {
+        width: 0.4rem;
+        height: 0.4rem;
+        margin: 0.05rem 0.05rem 0 0.1rem;
+    }
+    .share_top .logo2 {
+        width: 1.35rem;
+        height: 0.35rem;
+        margin: 0.05rem 0.1rem 0 0;
+    }
+    // canvas图片
+    .box{
+       margin-top:20px; 
+    }
+    .box .qrCode{
+       margin-top:20px; 
+       height: 100px;
+       width: 100px;
+       margin-top: 5px;
+       
+    }
+    .result{
+        text-align: center;
+    }
+    .result img{
+        min-width: 3rem;
+        max-width: 3.5rem;
+    }
+    #myCanvas {
+            -webkit-transform: scale(0.5);
+            -moz-transform: scale(0.5);
+                -ms-transform: scale(0.5);
+                    transform: scale(0.5);
+            -webkit-transform-origin: 0 0;
+            -moz-transform-origin: 0 0;
+                -ms-transform-origin: 0 0;
+                    transform-origin: 0 0;
+        }
+
+    // 说明文字
+    .exp-txt{
+        padding: 0.1rem;
+        padding-bottom: 1rem;
+    }
+    .exp-txt .title{
+        font-size: 0.12rem;
+        color: #999;
+        line-height: 0.18rem;
+        margin: 0;
+        padding-bottom: 0.1rem;
+    }
+
+    .con-txt .am-list-body{
+        background-color: rgba(255,255,255,0);
+        padding-bottom: 0.1rem;
+    }
+    .con-txt .am-list-item{
+        background-color: rgba(255,255,255,0);
+        padding-left: 0;
+    }
+    .con-txt .am-list-body:before{
+        height: 0!important;
+    }
+    .con-txt .am-list-body:after{
+        height: 0!important;    
+    }
+    .con-txt .am-list-line:after{
+        height: 0!important;    
+    }
+    .con-txt .am-list-content{
+        display: flex;
+    }
+    
+    .con-txt .txt-item .icon{
+       padding-right: 0.1rem;     
+    }
+    
+    .con-txt .txt-item ul li{
+        font-size: 0.12rem;
+        color: #999;
+        line-height: 0.18rem;
+    }
+
+    // 按钮
+    .bottom-btn {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 10px;
+        background: #fff;
+		z-index: 100;
+    }
+	.bottom-btn .am-button-primary{
+        background: #ff9900;
+        border:1px solid #ff9900;
+        &:before {
+            border:1px solid #ff9900;
+        }
+    }
+
+
+}

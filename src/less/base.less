@@ -1,0 +1,201 @@
+
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    #app{
+        height: 100%;
+        .view-layout{
+            height: 100%;
+            &>div{
+                height: 100%
+            }
+        }
+    }
+    
+    .common-jc-error{
+        color: @auxiC1;
+        padding-left: 0.2rem;
+        font-size: 0.12rem;
+    }
+    .am-modal-content .am-modal-button-group-h::before, body .am-modal-button-group-h::before{
+        background-color: @fontC7 !important;
+    }
+    .am-modal-content .am-modal-button-group-h .am-modal-button:last-child::before{
+        background-color: @fontC7 !important;
+    }
+    .am-modal-button-group-h{
+        border-top:1px solid @fontC7;
+    }
+    .am-modal-button-group-h .am-modal-button:last-child{
+        border-left:1px solid @fontC7;
+    }
+    .am-modal-transparent .am-modal-content .am-modal-body{
+        padding: 0 24px;
+        padding-bottom: 20px;
+    }
+    .am-modal-button-group-h .am-modal-button{
+        color: @mainC1;
+        font-weight:400;
+        font-size: 16px;
+    }
+    .am-modal-button-group-h .am-modal-button:first-child{
+        color:@fontC4;
+    }
+    .am-modal-button-group-v .am-modal-button{
+        color: @mainC1;
+        font-weight:400;
+    }
+    .am-modal-button-group-v .am-modal-button{
+        border-top:1px solid @fontC7;
+    }
+    
+    .am-modal-transparent .am-modal-content{
+        border-radius: 4px;
+    }
+    
+    .model_common{
+        .model_img{
+            width: 44px;
+            height: 44px;
+            margin: 11px auto 10px;
+        }
+        .model_tit{
+            font-size: 16px;
+            color: @fontC1;
+            text-align: center
+        }
+        .model_font{
+            text-align: justify !important;
+            font-size: 14px;
+            color: @fontC3;
+            text-align: left;
+            margin-bottom: 22px;
+            &.mart16{
+                margin-top: 16px;
+            }
+            &.mart4{
+                margin-top: 4px;
+            }
+            &.marb0{
+                margin-bottom: 0;
+            }
+            span{
+                color: @mainC1;
+            }
+        }
+        
+        .am-checkbox-agree{
+            padding-top: 10px;
+            margin-left: 0;
+            padding-bottom: 12px;
+            .am-checkbox-agree-label{
+                font-size:12px;
+                color:@fontC4;
+            }
+            .am-checkbox{
+                width: 12px;
+                height: 12px;
+            }
+            .am-checkbox-inner{
+                width: 12px;
+                height: 12px;
+                top: 14px;
+            }
+            .am-checkbox-inner:after{
+                position: absolute;
+                top: -2px;
+                right: -3px;
+                z-index: 999;
+                width: 3px;
+                height: 13px;
+                width: 13px;
+                background: url(/imgs/iou/mode-checkbox-bg.svg) no-repeat;
+                background-size: 100% 100%;
+                content: ' ';
+                transform: none;
+            }
+            .am-checkbox.am-checkbox-checked .am-checkbox-inner{
+                border-color: @mainC1;
+                background: @mainC1;
+            }
+            .am-checkbox-agree-label{
+                margin-left: 18px;
+            }
+        }
+    }
+    div{
+        -webkit-overflow-scrolling: touch
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'PingFangSC-regular','PingFang SC','Source Han Sans CN','MicroSoft YaHei';
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+}
+@font-face {
+    font-family: numberFont;
+    src: url('/fonts/DIN-Medium.otf');
+}
+@font-face {
+    font-family:"NotoSans";
+    src:local("Noto Sans SC Bold");
+}
+ul{
+    margin: 0;
+    padding: 0;
+    li{
+        list-style-type: none;
+    }
+}
+
+
+
+//微信之外增加顶部导航
+#app{
+    height: 100%;
+    box-sizing: border-box;
+    &>div{
+        height: 100%
+    }
+    .top-nav-borrow + div{
+        margin-top: 44px;
+        height: calc(~"100% - 44px")!important;
+        &.view-login,&.view-home{
+            height:  100%;
+        }
+    }
+    //顶部公共导航
+    .top-nav-borrow{
+        position: absolute;
+        top: 0;
+        height: 44px!important;
+        line-height: 44px;
+        text-align: center;
+        width: 100%;
+        background-color: #fff;
+        z-index: 100;
+        font-size: 0.16rem;
+        border-bottom: 1px solid #eee;
+        .Tappable-inactive,.Tappable-active{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 44px;
+            height: 44px;
+            display: block;
+            text-align: center;
+            img{
+                width: 10px;
+                transform: translate(-2px,4px) rotate(180deg);
+            }
+        }
+    }
+}

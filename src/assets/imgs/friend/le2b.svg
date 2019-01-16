@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="335px" height="187px" viewBox="0 0 335 187" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>画板 copy 14</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="99.1853573%" y2="98.502691%" id="linearGradient-1">
+            <stop stop-color="#E9ECEF" offset="0%"></stop>
+            <stop stop-color="#B1BCC5" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="15" y="11" width="305" height="157" rx="4"></rect>
+        <filter x="-8.0%" y="-13.1%" width="116.1%" height="131.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.717647059   0 0 0 0 0.756862745   0 0 0 0 0.788235294  0 0 0 0.397560009 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="画板-copy-14" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-3" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+        <g id="Mask">
+            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+        </g>
+        <path d="M75.9583078,154.168326 L67.874886,168.418145 L60.24759,153.944833 L46,147.170305 L59.8741435,140.57416 L67.874886,125 L76.5070217,140.610233 L90.3052911,147.170305 L75.9583078,154.168326 Z" id="Combined-Shape-Copy" fill="#FFFFFF" opacity="0.203804348" mask="url(#mask-3)"></path>
+        <path d="M32.1695454,116.477435 L14.8551661,147 L-1.48220912,115.998721 L-32,101.487943 L-2.28211713,87.359254 L14.8551661,54 L33.3448695,87.4365201 L62.9002331,101.487943 L32.1695454,116.477435 Z" id="Combined-Shape-Copy-2" fill="#FFFFFF" opacity="0.203804348" mask="url(#mask-3)"></path>
+        <path d="M44.9583078,40.1683263 L36.874886,54.418145 L29.24759,39.944833 L15,33.1703052 L28.8741435,26.5741605 L36.874886,11 L45.5070217,26.6102331 L59.3052911,33.1703052 L44.9583078,40.1683263 Z" id="Combined-Shape-Copy-3" fill="#FFFFFF" opacity="0.203804348" mask="url(#mask-3)"></path>
+    </g>
+</svg>

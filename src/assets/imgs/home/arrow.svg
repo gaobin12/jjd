@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="5px" height="9px" viewBox="0 0 5 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="借款人新用户" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-350.000000, -611.000000)">
+        <path d="M354.856753,611.142457 C354.76538,611.051297 354.640851,611 354.510923,611 C354.380995,611 354.256466,611.051297 354.165093,611.142457 L350.144349,615.162998 C350.051978,615.253173 350,615.376069 350,615.504294 C350,615.632519 350.051978,615.755415 350.144349,615.84559 L354.165093,619.858631 C354.35609,620.047123 354.665756,620.047123 354.856753,619.858631 C355.047749,619.670138 355.047749,619.364531 354.856753,619.176039 L351.20084,615.500544 L354.856753,611.817548 C355.044152,611.630516 355.044152,611.329488 354.856753,611.142457 Z" id="Shape" fill="#999999" fill-rule="nonzero" transform="translate(352.500000, 615.500000) scale(-1, 1) translate(-352.500000, -615.500000) "></path>
+    </g>
+</svg>

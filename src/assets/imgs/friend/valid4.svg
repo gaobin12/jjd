@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>画板 copy 7</title>
+    <desc>Created with Sketch.</desc>
+    <g id="画板-copy-7" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-9-Copy-2" fill="#F6F7FA" x="0" y="0" width="24" height="24" rx="4"></rect>
+        <g id="数据表" transform="translate(7.000000, 7.000000)" fill="#575B68" fill-rule="nonzero">
+            <path d="M4.6875,0 L5.3125,0 C5.65767797,2.53632657e-17 5.9375,0.335786438 5.9375,0.75 L5.9375,8.25 C5.9375,8.66421356 5.65767797,9 5.3125,9 L4.6875,9 C4.34232203,9 4.0625,8.66421356 4.0625,8.25 L4.0625,0.75 C4.0625,0.335786438 4.34232203,7.6089797e-17 4.6875,0 Z M8.125,2.25 L8.75,2.25 C9.09517797,2.25 9.375,2.58578644 9.375,3 L9.375,8.25 C9.375,8.66421356 9.09517797,9 8.75,9 L8.125,9 C7.77982203,9 7.5,8.66421356 7.5,8.25 L7.5,3 C7.5,2.58578644 7.77982203,2.25 8.125,2.25 Z M1.25,3.75 L1.875,3.75 C2.22017797,3.75 2.5,4.08578644 2.5,4.5 L2.5,8.25 C2.5,8.66421356 2.22017797,9 1.875,9 L1.25,9 C0.904822031,9 0.625,8.66421356 0.625,8.25 L0.625,4.5 C0.625,4.08578644 0.904822031,3.75 1.25,3.75 Z" id="Shape"></path>
+        </g>
+        <rect id="Rectangle-7" fill="#575B68" x="7" y="17" width="10" height="1" rx="0.5"></rect>
+    </g>
+</svg>

@@ -1,0 +1,176 @@
+
+@import "../../../less/var";
+.view-pre-iou-detail{
+    height: 100%;
+    overflow: auto;
+    .list-top{
+        position: relative;
+        .top{
+            display: inline-block;
+            width: 100%;
+            height: 110px;
+            background: @mainC3;
+        }
+        .bottom{
+            display: inline-block;
+            width: 100%;
+            height: 70px;
+        }
+
+        .user-box{
+            position: absolute;
+            width: 100%;
+            top: 20px;
+            left: 20px;
+            padding:0.14rem;
+            background: #FFFFFF;
+            box-shadow: 0 3px 20px -2px rgba(216,216,216,0.50);
+            border-radius: 4px;
+            .user-msg{
+                position: relative;
+                padding:0 0 10px 0; 
+                border-bottom: 1px dotted @fontC6;
+                .img{
+                    width: 40px;
+                    height: 40px;
+                    img{
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+                .text{
+                    padding: 2px 0.13rem;
+                    &>span{
+                        display: inline-block;
+                        width: 100%;
+                    }
+                    .name{
+                        font-size: 0.16rem;
+                        color: @mainC2;
+                        font-weight: bold;
+                    }
+                    .tel{
+                        font-size: 0.12rem;
+                        color: @fontC4;
+                    }
+                }
+                .btn{
+                    position: absolute;
+                    top: 7px;
+                    right: 0;
+                    background: @mainC3;
+                    border-radius: 4px;
+                    padding: 5px 15px;
+                    color: #fff;
+                }
+            }
+
+            .user-money{
+                padding:0;
+                &>div{
+                    width: 33%;
+                    &>span{
+                        display: inline-block;
+                        width: 100%;
+                        text-align: center;
+                    }
+
+                    .money{
+                        font-size: 0.18rem;
+                        color: @mainC1;
+                        margin: 0.12rem 0 0.08rem;
+                        &>span{
+                            font-size: 0.1rem;
+                        }
+                    }
+                    .text{
+                        font-size: 0.12rem;
+                        color: @fontC4;
+                    }
+                }
+                .money-1{
+                    &>span{
+                        text-align: left;
+                    }
+                }
+
+                .money-3{
+                    &>span{
+                        text-align: right;
+                    }
+                }
+            }
+        }
+    }
+    .list-title{
+        padding: 0.1rem 0.2rem 0.05rem;
+        .title{
+            position: relative;
+            color: @fontC2;
+            font-size: 0.16rem;
+            font-weight: bold;
+            padding-left: 8px;
+            &::before{
+                content: '';
+                position: absolute;
+                top: 4px;
+                left: 0;
+                width: 3px;
+                height: 14px;
+                background-color: #4B505F;
+                margin-right: 6px;
+            }
+        }
+    }
+    .detail_list.am-list{
+        .am-list-body{
+            border:0;
+        }
+        .am-list-body::before{
+            height: 0;
+        }
+        .am-list-body::after{
+            height: 0;
+        }
+        .am-list-item.am-list-item-middle .am-list-line{
+            border: none;
+        }
+        .am-list-item .am-list-line{
+            padding-right: 0;
+        }
+        .am-list-item{
+            margin: 0 0.2rem;
+            padding: 0;
+            border-bottom: 1px solid @fontC7;
+        }
+        .am-list-body div .am-list-line::after{
+            height: 0;
+        }
+    }
+    .am-list-item .am-list-line .am-list-content{
+        font-size: 0.14rem;
+        color: @fontC1;
+        line-height: normal;
+        .time-img{
+            display: inline-block;
+            vertical-align: middle;
+            width: 0.14rem;
+            height: 0.14rem;
+        }
+        .time-text{
+            display: inline-block;
+            padding-left: 8px;
+            vertical-align: middle;
+            margin-top: -0.02rem;
+        }
+    }
+
+    .am-list-item .am-list-line .am-list-extra{
+        font-size: 0.14rem;
+        color: @fontC4;
+
+        .link{
+            color: @mainC1;
+        }
+    }
+}

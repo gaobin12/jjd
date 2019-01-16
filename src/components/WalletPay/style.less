@@ -1,0 +1,97 @@
+
+.credit-bank-box{
+    .am-modal-body{
+        height: 70vh;
+        padding-bottom: .1rem;
+    }
+    .pay-box{
+        .am-list{
+            margin-bottom: .4rem;
+        }
+        .color{
+            color: #ff9900
+        }
+
+        p{
+            font-size: .14rem;
+            text-align: left;
+            padding: 0 20px;
+            &.small{
+                font-size: .12rem;
+            }
+        }
+
+        .bottom-btn{
+            display: block;
+            width: 100%;
+            padding: 0 10px;
+            height: .44rem;
+            a{
+                width: 100%;
+            }
+        }
+    }
+
+    .disable{
+        .am-list-content{
+            font-size: .14rem;
+            color: #aaa
+        }
+    }
+    .am-list-item.disable .am-list-line .am-list-content{
+        font-size: .14rem!important;
+        color: #aaa!important;
+    }
+    
+    .am-modal-close{
+        top: 15px
+    }
+    .pay-box.bank-box{
+        .am-list{
+            padding-top: 54px;
+        }
+        .am-list-header{
+            position: absolute;
+            top: 0;
+            left: 0;
+            text-align: center;
+        }
+        .chosen::after{
+            content: "";
+            display: block;
+            width: 12px;
+            height: 20px;
+            border-top: 1px solid #ff9900;
+            border-left: 1px solid #ff9900;
+            position: absolute;
+            right: 25px;
+            top: 3px;
+            transform: rotate(-135deg);
+        }
+        .back{
+            position: absolute;
+            left: 15px;
+            top: 15px;
+            z-index: 999;
+            img{
+                transform: rotateY(180deg);
+                display: block;
+                height: 18px;
+                width: 18px;
+            }
+        }
+    }
+}
+
+.credit-tip-box{
+    .am-list-item{
+        padding-left: 0;
+        text-align: center;
+        .am-list-line{
+            padding-right: 0;
+            .am-list-content{
+                text-align: center
+            }
+        }
+    }
+}

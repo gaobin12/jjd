@@ -1,0 +1,131 @@
+.view-collection-information {
+    background-color: #fff;
+    padding-bottom: 48px;
+    overflow-y: auto;
+    .am-accordion .am-accordion-item .am-accordion-header {
+        font-family: PingFangSC-Medium;
+        color: #4B505F;
+        letter-spacing: 0.8px;
+        height: 52px;
+        line-height: 52px;
+        padding-left: 30px;
+        font-size: 0.16rem;
+        padding-right: 0px;
+        margin-right: 30px;
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 20px;
+            top: 19px;
+            width: 3px;
+            height: 14px;
+            background-color: #4B505F;
+        }
+        i {
+            top: 19px;
+            right: 0px;
+            transform: rotate(0deg);
+            // z-index: 9999;
+            &::after {
+                content: '';
+                display: block;
+                width: 32px;
+                height: 5px;
+                background-color: #fff;
+                z-index: 9!important;
+                position: absolute;
+                top: 31px;
+                left: 15px;
+            }
+        }
+    }
+    .am-list .am-list-item.am-textarea-item {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .am-list-body {
+        position: relative;
+        top: 0px;
+        z-index: 10;
+    }
+    .am-list-item.am-input-item {
+        padding-left: 30px;
+    }
+    .am-accordion .am-accordion-item .am-accordion-header {
+        padding-right: 30px;
+        &:last-child {
+            border-bottom: none !important;
+        }
+    }
+    .am-accordion .am-accordion-item .am-accordion-header[aria-expanded~=true] i {
+        transform: rotate(90deg);
+    }
+    .am-list-item .am-list-line {
+        margin-right: 29px;
+        padding-right: 0px;
+    }
+    .am-list-item .am-input-label {
+        font-size: 0.14rem;
+        color: #333;
+    }
+    .am-input-control {
+        input {
+            text-align: right;
+            margin: 0;
+            font-size: 0.14rem;
+            color: #333;
+            margin-right: -0.1rem;
+        }
+    }
+    .ttt {
+        font-size: 0.14rem;
+        color: #333;
+        padding-left: calc(15px + 0.1rem);
+        padding-top: 0.1rem;
+    }
+    .am-textarea-control{
+        padding-bottom: 1px;
+        textarea{
+            height: 100px;
+            padding: 0.1rem;
+            font-size: 0.14rem;
+            border: 1px solid #f3f3f3;
+            border-radius: 5px;
+        }
+    }
+    .am-accordion-content-active {
+        position: relative;
+        top: -1px;
+        z-index: 999;
+    }
+    .bottom-btn {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 10;
+        .am-button {
+            font-size: 16px;
+            height: 50px;
+            line-height: 50px;
+            background-color: #4A505E;
+            border-radius: 0px;
+            color: #fff;
+        }
+    }
+}
+html:not([data-scale]) .am-button:before {
+    content: "";
+    display: block;
+    border-radius: 0 !important;
+}
+html:not([data-scale]) .am-accordion .am-accordion-item .am-accordion-header:after {
+    left: 30px !important;
+}
+html:not([data-scale]) .am-list .am-list-item.am-textarea-item:after {
+    content: '';
+    display: block;
+    height: 0;
+}

@@ -1,0 +1,201 @@
+
+@import "../../less/var";
+
+.com-pay-box{
+    span{
+        display: inline-block !important;
+    }
+    .pay-box{
+        .title{
+            height: 0.59rem;
+            position: relative;
+            padding: 0 !important;
+            border-bottom: 1px solid #f3f3f3;
+            .Tappable-inactive{
+                img{
+                    width: 0.146rem;
+                    position: absolute;
+                    top:0.217rem;
+                    left:0.206rem;               
+                }
+            }
+            span{
+                font-family: PingFangSC-Regular;
+                font-size: 0.18rem;
+                height: 100%;
+                color: #333333;
+                letter-spacing: 0.12px;
+                text-align: center;
+                line-height: 0.58rem;
+            }
+        }
+        .payitems{
+            margin-top: 0.12rem;
+        }
+        .around{
+            padding: 0 0.64rem !important;
+            height: 0.38rem;
+            justify-content: space-between;
+            align-items:center;
+            .left{
+                display: flex !important;
+                align-items:center;
+                font-family: PingFangSC-Regular;
+                font-size: 0.14rem;
+                width: auto !important;
+                color: #333333;
+                letter-spacing: 0;
+                height: 0.38rem;
+                line-height: 0.38rem;
+                img{
+                    margin-right: 0.06rem;
+                }
+            }
+            .right{
+                display: flex !important;
+                justify-content: flex-end;
+                align-items:center;
+                font-family: PingFangSC-Regular;
+                font-size: 0.14rem;
+                height: 0.38rem;
+                line-height: 0.38rem;
+                color: #333333;
+                letter-spacing: 0;
+                .arrow-r{
+                    margin-left: 0.06rem;
+                }
+            }
+            
+        }
+        .money{
+            padding: 0 !important;
+            margin-top: 0.23rem;
+            margin-bottom: 0.14rem;
+            font-family: DIN-Medium;
+            font-size: 0.36rem;
+            color: #333333;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 0.36rem;
+            align-items:flex-end;
+            input{
+                width: 1.22rem;
+                height: 0.36rem;
+                text-align: center;
+            }
+            .yuan{
+                font-size: 0.16rem;
+                line-height: 0.16rem;
+                font-family: PingFangSC-Medium;
+                color: #151515;
+                letter-spacing: 0;
+            }
+        }
+        .money-tag{
+            padding: 0 !important;
+            margin-bottom: 0.14rem;
+            font-family: PingFangSC-Regular;
+            font-size: 0.12rem;
+            line-height: 0.12rem;
+            color: #333333;
+            letter-spacing: 0;
+            text-align: right;
+            img{
+                margin-right: 0.05rem;
+            }
+        }
+        .label{
+            padding: 0 0 0.25rem !important;
+            font-family: PingFangSC-Regular;
+            font-size: 0.12rem;
+            color: #999999;
+            letter-spacing: 0;
+            text-align: center;
+            border-bottom: 1px solid #f3f3f3; 
+            margin-bottom: 0.12rem; 
+        }
+        .bottom{
+            width: 100%;
+            padding: 0.1rem !important;
+            margin-top: 0.25rem;
+            .c-black{
+                border-radius: 2px;
+                height: 0.5rem;
+                line-height: 0.5rem;
+                font-family: PingFangSC-Medium;
+                font-size: 0.18rem;
+                letter-spacing: 0;
+                flex: 1;
+                background: @fontC5;
+                color: #fff;
+                text-align: center;
+                &.active{
+                    background: @mainC2;
+                }
+                &::before{
+                    display: none;
+                }
+            }
+        }
+        .am-flexbox{
+            padding: 0.06rem 0;
+            .left{
+                text-align: left;
+                width: 120px;
+            }
+            .right{
+                width: 80px;
+                text-align: right;
+                .check{
+                    display: inline-block;
+                    width: 15px;
+                    height: 15px;
+                    border:1px solid #ccc;
+                    border-radius: 100%;
+                }
+            }
+        }
+        .carditems{
+            width: 100%;
+            padding: 0 0.2rem;
+        }
+        .cards{
+            width: 100%;
+                
+        }
+        .card{
+            padding: 0;
+            width: 100%;
+            height: 0.5rem;
+            border-bottom: 1px solid #f3f3f3;
+            .left{
+                    font-family: PingFangSC-Regular;
+                    font-size:0.14rem;
+                    color: #333333;
+                    letter-spacing: 0;
+                    line-height: 0.14rem;
+                }
+        }
+        .carderr{
+            padding: 0;
+            height: 0.72rem;
+            .left{
+                font-family: PingFangSC-Regular;
+                font-size: 0.14rem;
+                line-height: 0.14rem;
+                padding: 0.18rem 0 0.08rem;
+                color: #999999;
+                letter-spacing: 0;
+            }
+            .err{
+                font-family: PingFangSC-Regular;
+                font-size: 0.1rem;
+                line-height: 0.14rem;
+                color: #999999;
+                letter-spacing: 0;
+            }
+        }
+
+        
+    }
+}

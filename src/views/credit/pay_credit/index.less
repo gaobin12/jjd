@@ -1,0 +1,128 @@
+@import '../../../less/var.less';
+
+
+.view-pay-credit {
+    .pay-cred{
+        width: 3.33rem;
+        height: 0.83rem;
+        margin: 0 auto;
+        margin-top: 0.2rem;
+        padding-left: 0.17rem;
+        background: #FFF9F5;
+        border: 1px solid #F88F5B;
+        border-radius: 5px;
+        position: relative;
+        &.mat06{
+            margin-top: 0.06rem;
+        }
+        .pay-cred-tit{
+            color:@mainC2;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 0.25rem;
+            margin: 0.14rem 0 0.1rem;
+        }
+        .pay-cred-con{
+            color:@fontC3;
+            line-height: 0.2rem;
+            .pay-icon{
+                display: inline-block;
+                background: @mainC1;
+                width: 14px;
+                height: 14px;
+                font-size: 10px !important;
+                color: #fff;
+                border-radius: 2px;
+                text-align: center;
+                line-height: 14px;
+                margin-right: 0.05rem;
+                vertical-align: middle
+            }
+        }
+        .pay-cred-money{
+            color:@fontC3;
+            line-height: 0.25rem;
+            font-size: 20px;
+            font-weight: bold;
+            color: #FF8862;
+            position: absolute;
+            right: 0.1rem;
+            top:0.3rem;
+            i{
+                font-style: normal;
+                font-size: 14px;
+            }
+            s{
+                font-size: 12px;
+                font-weight: normal;
+                color: #B4B4B4;
+                margin-right: 0.2rem;
+            }
+        }
+    }
+
+    .pay-cred.active{
+        background:url('/imgs/credit/pay_bg.jpg');
+        border: 0;
+        padding-top: 0.14rem;
+        .pay-cred-tit{
+            color:#fff;
+            margin: 0 0 0.1rem;
+        }
+        .pay-cred-con{
+            color:#fff;
+            .pay-icon{
+                background: #fff;
+                color: @mainC1;
+            }
+        }
+        .pay-cred-money{
+            color: #FFF;
+            s{
+                color: #fff;
+            }
+        }
+    }
+
+    .cred-com-li{
+        line-height: 0.22rem;
+        color: @mainC2;
+        font-size: 0.16rem;
+        padding: 0.16rem 0.2rem;
+        position: relative;
+        span.line{
+            display: inline-block;
+            width: 3px;
+            height: 14px;
+            background:@mainC2;
+            margin-right: 8px;
+            vertical-align: middle;
+            
+        }
+        span.font{
+            vertical-align: middle;
+        }
+        .rule{
+            position: absolute;
+            top: 0.16rem;
+            right: 0.2rem;
+            font-size: 0.14rem;
+            color: @fontC4;
+            img{
+                display: inline-block;
+                width: 14px;
+                height: 14px;
+                margin-right: 0.04rem;
+                vertical-align: middle;
+            }
+        }
+    }
+    .bold{
+        font-weight: bold;
+    }
+    .font{
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+}

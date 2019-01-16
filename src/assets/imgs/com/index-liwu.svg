@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="51px" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>首页-礼物</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.482758621 18 6.51724138 18 6.51724138 0 0.482758621 0"></polygon>
+    </defs>
+    <g id="icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页-礼物">
+            <g id="礼物">
+                <rect id="Rectangle-8" fill="#FF6867" x="0" y="0" width="51" height="51" rx="5"></rect>
+                <g id="Group-2" transform="translate(8.000000, 10.500000)">
+                    <path d="M29.8436065,30 L5.15639348,30 C3.64032483,30 2.4137931,28.8552889 2.4137931,27.4403556 L2.4137931,10.8 L32.5862069,10.8 L32.5862069,27.4403556 C32.5862069,28.8552889 31.3596752,30 29.8436065,30 Z" id="Fill-32" fill="#FFCDCB"></path>
+                    <g id="Group" transform="translate(6.034483, 0.000000)" fill="#FFFFFF">
+                        <path d="M21.6029445,7.2 L10.9805295,7.2 C10.4420274,7.2 9.96263144,6.90665988 9.75589827,6.46006621 C9.54944173,6.01347253 9.66765401,5.49329383 10.0436834,5.15336929 L15.3550292,0.353174842 C15.6057462,0.126586264 15.9450763,0 16.2919675,0 C19.9507389,0 22.9310345,2.69339568 22.9310345,6.00013889 C22.9310345,6.6599875 22.3334262,7.2 21.6029445,7.2 Z M14.1895041,4.79986111 L20.0537366,4.79986111 C19.5595872,3.5465821 18.3205713,2.606477 16.8156239,2.42647284 L14.1895041,4.79986111 Z" id="Fill-33"></path>
+                        <path d="M11.9490073,7.2 L1.32792358,7.2 C0.597533343,7.2 0,6.6599875 0,6.00013889 C0,2.69339568 2.97992211,0 6.63823494,0 C6.99227414,0 7.33193049,0.126586264 7.57505585,0.353174842 L12.885736,5.15336929 C13.2692785,5.50012732 13.3799157,6.01347253 13.173485,6.46006621 C12.9667778,6.90665988 12.4874419,7.2 11.9490073,7.2 Z M2.88412869,4.79986111 L8.74799509,4.79986111 L6.12220437,2.42647284 C4.61744559,2.606477 3.3782162,3.5465821 2.88412869,4.79986111 Z" id="Fill-34"></path>
+                    </g>
+                    <path d="M34.327013,12 L0.672987035,12 C0.299053414,12 0,11.7033379 0,11.3329733 L0,7.33312758 C0,6.59999074 0.605772467,6 1.34597407,6 L33.6540259,6 C34.3942275,6 35,6.59999074 35,7.33312758 L35,11.3329733 C35,11.7033379 34.7009466,12 34.327013,12 Z" id="Fill-35" fill="#FFE9E9"></path>
+                    <g id="Rectangle-17-Copy" transform="translate(14.000000, 12.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#FFF5F5" xlink:href="#path-1"></use>
+                        <rect fill="#FFCDCB" opacity="0.300000012" mask="url(#mask-2)" transform="translate(1.750000, 4.750000) rotate(30.000000) translate(-1.750000, -4.750000) " x="1" y="-8.25" width="1.5" height="26"></rect>
+                        <rect id="Rectangle-17-Copy-10" fill="#FFCDCB" opacity="0.300000012" mask="url(#mask-2)" transform="translate(1.750000, -1.000000) rotate(30.000000) translate(-1.750000, 1.000000) " x="1" y="-14" width="1.5" height="26"></rect>
+                        <rect id="Rectangle-17-Copy-7" fill="#FFCDCB" opacity="0.300000012" mask="url(#mask-2)" transform="translate(1.750000, 10.500000) rotate(30.000000) translate(-1.750000, -10.500000) " x="1" y="-2.5" width="1.5" height="26"></rect>
+                        <rect id="Rectangle-17-Copy-8" fill="#FFCDCB" opacity="0.300000012" mask="url(#mask-2)" transform="translate(1.750000, 16.250000) rotate(30.000000) translate(-1.750000, -16.250000) " x="1" y="3.25" width="1.5" height="26"></rect>
+                        <rect id="Rectangle-17-Copy-9" fill="#FFCDCB" opacity="0.300000012" mask="url(#mask-2)" transform="translate(1.750000, 22.000000) rotate(30.000000) translate(-1.750000, -22.000000) " x="1" y="9" width="1.5" height="26"></rect>
+                    </g>
+                    <polygon id="Fill-37" fill="#FFFFFF" points="14.4827586 12 20.5172414 12 20.5172414 6 14.4827586 6"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

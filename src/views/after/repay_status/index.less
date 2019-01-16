@@ -1,0 +1,85 @@
+.view-show-tatus{
+    
+    .top-status{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        padding-top: 0.1rem;
+        padding-bottom: 0.2rem;
+        border-bottom: 1px solid #eee;
+        img{
+            width: 100px;
+            height: 80px;
+        }
+        div{
+            margin-top: 0.3rem;            
+            font-size: 0.16rem;
+            color: #999;
+        }
+    }
+
+    .am-list-body::before,
+    .am-list-body::after {
+        display: none !important;
+    }
+    .am-list-item {
+        min-height: 50px;
+        font-size: 16px;
+        color: #333;
+    }
+    .am-list-item .am-list-line .am-list-content {
+        font-size: 16px;
+        color: #333;
+    }
+    .am-list-item .am-list-line .am-list-extra {
+        font-size: 16px;
+        color: #333;
+    }
+    .am-list-line::after {
+        display: none !important;
+    }
+    .bottom-btn {
+        left: 0;
+        margin-top: 1.5rem;
+        bottom: 0;
+        width: 100%;
+        background-color: transparent;
+        padding: 0.1rem 0.1rem;
+        z-index: 2;
+        .am-button {
+            background-color: #ff9900;
+            border-radius: 3px;
+            color: #fff;
+        }
+    }
+    .common-btn_box{
+        margin: 10px auto;
+        width: 95%;
+        height: 50px;
+        line-height: 50px;
+        background: #fff;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-self: center;
+        box-shadow: 0 0 10px 0 rgba(163, 163, 163, 0.18);
+        span{
+            display: inline-block;
+            height: 100%;
+            flex: 1;
+            padding: 0 1.6%;
+            text-align: center;
+            background: #ffffff;
+            font-size: 0.16rem;
+            color: #4B505F;
+            position: relative;
+        }
+        .c-black {
+            flex: 1;
+            background: #ff9900;
+            color: #fff;
+        }
+    }
+}

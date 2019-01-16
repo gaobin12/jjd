@@ -1,0 +1,252 @@
+
+.urge-process{
+    background: #fff;
+    // 内容
+    .row {
+        width: 100%;
+        padding: 0 16px;
+        position: relative;
+        min-height: 0.5rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-box-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        align-items: center;
+        background-color: #fff;
+    }
+    .row:after, .row:before {
+        content: "";
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        -webkit-transform: scaleY(.5);
+        -moz-transform: scaleY(.5);
+        -ms-transform: scaleY(.5);
+        transform: scaleY(.5);
+        -webkit-transform-origin: 0 0;
+        -moz-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+        transform-origin: 0 0;
+        z-index: 1;
+        border-bottom: 1px solid #eee;
+    }
+    .box_ce{
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        -webkit-flex: 1;
+        -moz-box-flex: 1;
+        flex: 1;
+        padding: 0.1rem 0;
+        color: #999;
+        font-size: 0.14rem;
+    }
+    .ok {
+        position: relative;
+        font-family: PingFangSC-Medium;
+        font-size: 16px;
+        color: #4B505F;
+        letter-spacing: 0.8px;
+        &::before {
+            content: '';
+            display: block;
+            width: 3px;
+            height: 14px;
+            background: #4B505F;
+            position: absolute;
+            top: 7px;
+            left: 5px;
+        }
+    }
+  
+    .box_ce>div {
+        padding: 0.05rem 0;
+    }
+
+    .box_ce .days {
+        width: 0.6rem;
+        text-align: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        -moz-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        align-items: center;
+    }
+    .box_ce .days span {
+        width: 18px;
+        height: 18px;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        line-height: 18px;
+        font-size: 0.1rem;
+        color: #fff;
+        text-align: center;
+        background-color: #efefef;
+        margin: 0px 3px;
+    }
+    .ok.days span {
+        background-color: #ff9900;
+    }
+    .box_ce .timeline {
+        position: relative;
+        padding-left: 0.8rem;
+    }
+    .ok:after, .ok:before {
+        border-color: #ff9900!important;
+    }
+    .box_ce .timeline:after, .box_ce .timeline:before {
+        content: "";
+        width: 200%;
+        height: 200%;
+        position: absolute;
+        left: -50%;
+        top: -50%;
+        -webkit-transform: scale(.5);
+        -moz-transform: scale(.5);
+        -ms-transform: scale(.5);
+        transform: scale(.5);
+    }
+    .box_ce .timeline:before {
+        border-left: 1px solid #eee;
+        left: -moz-calc(-50% + 0.4rem);
+        left: calc(-50% + 0.4rem);
+    }
+    .box_ce .timeline:before {
+        width: 188%!important;
+    }
+    .box_ce .timeline img{
+        width: 0.16rem;
+        height:0.16rem;
+        position: absolute;
+        left: 58px;
+        top: 0px;
+    }
+    .box_ce .timeline:after {
+        left: 0.25rem;
+    }
+    .box_ce .timeline:after {
+        width: 0.1rem;
+        height: 0.1rem;
+        left: 0.25rem;
+        top: 0.1rem;
+        border: 1px solid #eee;
+        -moz-border-radius: 0.05rem;
+        border-radius: 0.05rem;
+        background-color: #fff;
+    }
+
+
+
+    .am-button-small {
+        margin-top: 2px;
+    }
+
+
+    // 底部按钮
+    .am-wingblank{
+    text-align: right;
+    }
+    .blank{
+        height: 1rem;
+        width: 100%;
+    }
+    .bottom {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 0.5rem;
+        background-color: #fff;
+        width: 100%;
+        padding-right: 0;
+        box-shadow: 0 0 10px 0 rgba(163,163,163,0.18);
+        .g_flex {
+            display: flex;
+            height: 50px;
+            overflow: hidden;
+            a {
+                width: 100%;
+                height: 50px;
+                text-align: center;
+                line-height: 50px;
+                display: block;
+                flex: 1;
+                span {
+                    display: block;
+                    width: 100%;
+                    height: 50px;
+                }
+            }
+        }
+    }
+    .fir-btn{
+        width: 100%;
+        display: inline-block;
+        position: relative;
+        span {
+            font-family: PingFangSC-Regular;
+            font-size: 16px;
+        }
+    }
+    .border_r {
+        span {
+            color: #4B505F;
+        }
+        &::after {
+            content: '';
+            display: block;
+            width: 2px;
+            height: 10px;
+            position: absolute;
+            top: 22px;
+            right: 0px;
+            background-color: #4B505F;
+        }
+    }
+    #two_style {
+        background: #4B505F;
+        span {
+            color: #fff;
+        }
+    }
+    .fir-btn.active .am-button-ghost:before{
+        // border:1px solid #aaaaaa;
+    }
+    .am-button-ghost {
+        color: #4B505F;
+        // border: 1px solid #4B505F !important;
+    }
+    .fir-btn.active .am-button-ghost{
+        color: #333;
+    }
+    .am-wingblank.am-wingblank-lg {
+        height: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+html:not([data-scale]) .am-button-ghost:before {
+    content: '';
+    display: block;
+    border: none;
+}

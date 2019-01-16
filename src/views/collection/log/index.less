@@ -1,0 +1,120 @@
+
+.view-collection{
+    background-color: #fff;
+    .card_verdie{
+        display: flex;flex-flow: row-reverse;padding: 20px 0;
+    }
+    .tip_rr {
+        display: inline-block;
+        width: 80px;
+        height: 20px;
+        line-height: 20px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        font-size: 14px;
+        color: #fff;
+        text-align: center;
+        margin: 0 auto;
+        background-color: #ccc;
+    }
+    .cardFather{
+        .top {
+            background-color: #fff;
+            /* text-align: left; */
+            padding-left: 20px;
+            margin: 0 20px;
+            height: 30px;
+            line-height: 30px;
+            -moz-border-radius-topleft: 3px;
+            border-top-left-radius: 3px;
+            -moz-border-radius-topright: 3px;
+            border-top-right-radius: 3px;
+            font-size: 14px;
+        }
+        .bottom_2 {
+            background-color: #fff;
+            text-align: center;
+            margin: 0 20px;
+            -moz-border-radius-bottomleft: 3px;
+            border-bottom-left-radius: 3px;
+            -moz-border-radius-bottomright: 3px;
+            border-bottom-right-radius: 3px;
+            color: #ff9900;
+            margin-bottom: 20px;
+            font-size: 12px;
+            padding-left: 20px;
+        }
+    }
+    .am-list-item {
+        padding-left: 30px;
+    }
+    .am-list-item .am-list-line {
+        padding-right: 20px;
+    }
+    .am-list-item .am-list-line .am-list-extra{
+        color: #999;
+        font-size: 14px;
+        span{
+            font-size: 0.12rem;
+        }
+    }
+    .am-accordion-item .am-accordion-header::before {
+        content: '';
+        display: block;
+        left: 0px !important;
+    }
+    .am-switch .checkbox{
+        height: 25px;
+        width: 49px;
+        border-radius: 25px;
+    }
+    .am-switch .checkbox:after, .am-switch .checkbox:before{
+        height: 22px;
+        border-radius: 24px;
+    }
+    .am-switch .checkbox:before{
+        width: 45px;
+    }
+    .am-list-item .am-list-line .am-list-content {
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        font-family: PingFangSC-Regular;
+        color: #333333;
+    }
+    .am-accordion .am-accordion-item .am-accordion-header {
+        height: 48px;
+        line-height: 48px;
+        margin-left: 20px;
+        font-family: PingFangSC-Medium;
+        padding-left: 10px;
+        font-size: 16px;
+        color: #4B505F;
+        letter-spacing: 0.8px;
+        padding-right: 0px;
+        margin-right: 20px;
+        i {
+            right: 0px;
+            transform: rotate(0deg);
+        }
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 17px;
+            left: 20px;
+            width: 3px;
+            height: 14px;
+            background-color: #567;
+        }
+    }
+    .am-accordion .am-accordion-item .am-accordion-header[aria-expanded~=true] i {
+        transform: rotate(90deg);
+    }
+
+}
+html:not([data-scale]) .am-accordion .am-accordion-item .am-accordion-header:after {
+    content: '';
+    display: block;
+    width: calc(100% - 10px);
+    margin-left: 10px;
+}

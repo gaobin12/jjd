@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>京东选中</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M7.90925,9.41587519 L6.27275,9.41587519 L5.18175,9.41587519 L5.18175,8.30864006 L5.18175,1.11211924 L5.18175,0.00488411458 L6.27275,0.00488411458 L7.90925,0.00488411458 C10.1685,0.00488411458 12,2.11177697 12,4.71037965 C12,7.30898233 10.1685,9.41587519 7.90925,9.41587519 Z M7.90925,1.11211924 L6.27275,1.11211924 L6.27275,8.30838635 L7.90925,8.30838635 C9.566,8.30838635 10.90925,6.69726283 10.90925,4.71012593 C10.90925,2.72298903 9.566,1.11211924 7.90925,1.11211924 Z M0.545499996,9.41587519 L0,9.41587519 L0,8.30864006 L0.545499996,8.30864006 C1.7505,8.30864006 2.72749999,7.3173551 2.72749999,6.09416983 L2.72749999,0.00488411458 L3.8185,0.00488411458 L3.8185,6.09416983 C3.81825,7.92856715 2.353,9.41587519 0.545499996,9.41587519 Z" id="path-1"></path>
+        <filter x="-41.7%" y="-42.5%" width="183.3%" height="206.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.705649447   0 0 0 0 0.705649447   0 0 0 0 0.705649447  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="京东选中" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-9-Copy-2" fill="#F6F7FA" x="0" y="0" width="24" height="24" rx="4"></rect>
+        <g id="京东" transform="translate(6.000000, 8.000000)" fill-rule="nonzero">
+            <g id="Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#4B505F" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

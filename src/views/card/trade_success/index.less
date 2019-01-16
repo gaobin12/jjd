@@ -1,0 +1,68 @@
+@import "../../../less/var";
+.trade_success{
+    .succ-img{
+        display: block;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 0.5rem auto 0.1rem;
+        &.mart100{
+            margin-top: 1rem;
+        }
+    }
+    .succ-font{
+        font-size:0.16rem;
+        color: #3F3F3F;
+        text-align: center;
+        margin-bottom: 0.15rem;
+        &.big{
+            color: @fontC1;
+            font-size: 0.36rem;
+            margin-bottom: 0.3rem;
+            span{
+                font-size: 0.16rem;
+            }
+        }
+        .mar10{
+            margin-bottom: 0.1rem;
+        }
+    }
+    .wid50{
+        width: 50%;    
+        display: block;
+        float: left;
+        &:last-child{
+            text-align: right;
+        }
+    }
+    .am-list.my-list .am-list-body{
+        .am-list-item{
+            padding: 0 0.2rem;
+            height: 0.5rem;
+            line-height: 0.4rem;
+            border-top: 1px solid @fontC7;
+            border-bottom: 1px solid @fontC7;
+            .am-list-line{
+                padding: 0;
+                .am-list-extra {
+                    -webkit-flex-basis: 50%;
+                    -ms-flex-preferred-size: 50%;
+                    flex-basis: 50%;
+                    color: @fontC1;
+                    font-size: 0.14rem;
+                    text-align: right;
+                }
+                .am-list-content{
+                    color: @fontC1;
+                    font-size: 0.14rem;
+                }
+            }
+        }
+        &::before{
+            height: 0;
+        }
+        &::after{
+            height: 0;
+        }
+    }
+    
+}

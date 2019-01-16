@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="335px" height="187px" viewBox="0 0 335 187" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>画板 copy 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="99.1853573%" y2="98.502691%" id="linearGradient-1">
+            <stop stop-color="#FFDFC4" offset="0%"></stop>
+            <stop stop-color="#FF9053" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="15" y="11" width="305" height="157" rx="4"></rect>
+        <filter x="-8.0%" y="-13.1%" width="116.1%" height="131.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.6   0 0 0 0 0.37254902  0 0 0 0.40418365 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="画板-copy-13" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-3" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+        <g id="Mask">
+            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+        </g>
+        <polygon id="Triangle" fill="#FFFFFF" opacity="0.135133605" mask="url(#mask-3)" points="13.4318333 167.42 -69 11 102.163407 11"></polygon>
+        <polygon id="Triangle-Copy" fill="#FFFFFF" opacity="0.135133605" mask="url(#mask-3)" points="56.0861183 167.04181 6 72 110 72"></polygon>
+    </g>
+</svg>

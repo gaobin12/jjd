@@ -1,0 +1,242 @@
+
+.view-loan_draft_form{
+    padding-bottom: 80px;
+    
+    .iou_form_hint_bg{
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        height: 100%;
+        z-index: 10000;
+        background-color: rgba(0,0,0,.8);
+    }
+    .iou_form_hint_supply{
+        width: 80%;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        right: 0;
+        margin: auto;
+        transform: translateY(-50%);
+        background-color: #fff;
+        border-radius: 7px;
+        z-index: 99999;
+        .iou_form_hint_content{
+            padding: 15px;
+            text-align: left;
+            color: #666;
+            &>span {
+                display: inline-block;
+                width: 100%;
+                text-align: left;
+                img {
+                    display: block;
+                    width: 40px;
+                    margin: 0 auto;
+                }
+                .color {
+                    display: inline-block;
+                    width: 100%;
+                    color: #ff9900;
+                    padding: 5px 0;
+                    text-align: center;
+                }
+                .color1{
+                    margin-top: 15px;
+                    display: inline-block;
+                    width: 100%;
+                    color: #ff9900;
+                    padding: 5px 0;
+                }
+            }
+        }
+        .iou_form_hint_footer{
+            height: 50px;
+            position: relative;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            &::before{
+                content: "";
+                position: absolute;
+                background-color: #ddd;
+                display: block;
+                z-index: 1000;
+                top: 0;
+                right: auto;
+                bottom: auto;
+                left: 0;
+                width: 100%;
+                height: 1px;
+                -webkit-transform-origin: 50% 50%;
+                -ms-transform-origin: 50% 50%;
+                transform-origin: 50% 50%;
+                -webkit-transform: scaleY(.5);
+                -ms-transform: scaleY(.5);
+                transform: scaleY(.5);
+            }
+            .footer_btn1{
+                position: relative;
+                color: #f90;
+                font-size: 16px;
+                height: 50px;
+                line-height: 50px;
+                display: block;
+                width: 50%;
+                float: left;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                text-align: center;
+            }
+            .footer_btn1:last-child:before {
+                content: "";
+                position: absolute;
+                background-color: #ddd;
+                display: block;
+                z-index: 1000;
+                top: 0;
+                right: auto;
+                bottom: auto;
+                left: 0;
+                width: 1px;
+                height: 100%;
+                -webkit-transform-origin: 100% 50%;
+                -ms-transform-origin: 100% 50%;
+                transform-origin: 100% 50%;
+                -webkit-transform: scaleX(.5);
+                -ms-transform: scaleX(.5);
+                transform: scaleX(.5);
+            }
+        }
+        
+    }
+    .am-list-item .am-input-label.am-input-label-5{
+        width: 140px;
+        font-size: 13px;
+    }
+    .am-list-item .am-input-control input{
+        margin-bottom: 0px;
+        text-align: right;
+    }
+    .am-list-item .am-list-line .am-list-content{
+        width: 140px;
+        font-size: 13px;
+    }
+    .colff9900{
+        color: #ff9900;
+    }
+    .bottom-btn{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 10px;
+        background: #fff;
+        z-index: 2;
+    }
+    .bottom-btn.multilp-box{
+        .am-list-body{
+            display: flex;
+            justify-content: space-between;
+            a{
+                flex: 0 1 48%;
+            }
+        }
+    }
+
+    //弹框样式
+    .popup-list{
+        .am-list-item .am-list-line .am-list-content{
+            .go-button{
+                background: #ff9900;
+                color: #fff;
+                padding: 6px 30px;
+                border-radius: 4px;
+            }
+        }         
+    }
+
+    .am-checkbox-agree .am-checkbox-agree-label {
+        font-size: 14px;
+        color: #999;
+    }
+
+    .mar10 {
+        margin-top: .1rem;
+    }
+
+    .bgCustom {
+        .am-list-body {
+            background: #F6F7FA!important;
+            padding: .2rem .1rem 0;
+
+            p {
+                margin-bottom: 0;
+                color: #999;
+            }
+            p.colff9900 {
+                color: #ff9900;
+            }
+
+            &:before {
+                height: 0!important;
+            }
+
+            &:after {
+                height: 0;
+            }
+        }
+    }
+    .am-list-item .am-input-label .am-list-item{
+        padding-left: 0;
+    }
+    .am-list-item .am-input-control input{
+        font-size: 14px;
+    }
+    .am-list-item .am-list-line .am-list-extra{
+        font-size: 14px;
+    }
+    .am-list-item .am-list-line .am-list-content{
+        font-size: 14px;
+        color: #333;
+    }
+      
+    .check-agree{
+        margin: 0;
+    }
+}
+
+
+//弹框
+.dialog-supply{
+    &>span{
+        display: inline-block;
+        width: 100%;        
+        img{
+            width: 40px;
+        }
+        .color{
+            display: inline-block;
+            width: 100%;
+            color: #ff9900;
+            padding: 5px 0;
+        }
+        .color1{
+            display: inline-block;
+            width: 100%;
+            text-align: left;
+            color: #ff9900;
+            padding: 5px 0;
+        }
+    }
+    .text{
+        text-align: left;
+    }
+    .am-checkbox-agree .am-checkbox-agree-label{
+        margin-top: 4px;
+        color: #888;
+    }
+    
+}

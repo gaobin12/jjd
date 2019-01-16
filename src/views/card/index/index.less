@@ -1,0 +1,160 @@
+@import '../../../less/var.less';
+.view-card {
+    height: 100%;
+    padding-bottom: 50px;
+    padding-top: 0.14rem;
+    background: #fff;
+    .bank_card {
+        width: 3.35rem;
+        height: 1.25rem;
+        color: #fff;
+        margin:0 auto 0.14rem;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        &.red{
+            background-image: linear-gradient(-47deg, #FE5D5D 0%, #FF4343 100%);
+            box-shadow: 0 6px 30px -3px #FD9EAB;
+        }
+        &.green{
+            background-image: linear-gradient(-47deg, #74EF8F 0%, #36CE86 100%);
+            box-shadow: 0 6px 30px -3px #9EFDCA;
+        }
+        &.blue{
+            background-image: linear-gradient(-47deg, #75B4FF 0%, #417BFC 100%);
+            box-shadow: 0 6px 30px -3px #9ECBFD;
+        }
+        &.purple{
+            background-image: linear-gradient(-47deg, #A799FE 0%, #7587F5 100%);
+            box-shadow: 0 6px 30px -3px #A29EFD;
+        }
+        &.yellow{
+            background-image: linear-gradient(-47deg, #FFDA79 0%, #FFC200 100%);
+            box-shadow: 0 6px 30px -3px #FDE69E;
+        }
+
+        .name{
+            padding: 0.16rem 0.22rem;
+            .bank-img{
+                display: inline-block;
+                width: 0.34rem;
+                height: 0.34rem;
+                margin-right: 0.16rem;
+                vertical-align: middle;
+            }
+            span{
+                font-weight: bold;
+                font-size: 0.2rem;
+                vertical-align: middle;
+                letter-spacing: 7px;
+            }
+        }
+        .number{
+            margin-left: 0.26rem;
+            font-size: 0.18rem;
+            font-weight: bold;
+        }
+        .posi-font{
+            position: absolute;
+            right: 0.15rem;
+            top:0.22rem;
+            font-size: 0.14rem;
+        }
+        .posi-img{
+            position: absolute;
+            right: -0.1rem;
+            top:0.68rem;
+            z-index: 2;
+            img{
+                width: 0.8rem;
+                height: 0.8rem;
+            }
+        }
+        
+    }
+    .common-btn_box .c-black{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        img{
+            align-self: center;
+        }
+    }
+
+    .bank_card .checking {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, .8);
+        top: 0;
+        left: 0;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        display: flex;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        font-size: .14rem;
+        line-height: 1.6;
+    }
+    .btn-img{
+        width: 0.2rem;
+        height: 0.2rem;
+        display: inline-block;
+        margin-right: 0.1rem;
+        vertical-align:middle;
+    }
+    .btn-font{
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .my-list{
+        .am-list-header{
+            color: @mainC2;
+            font-size: 0.16rem;
+            font-weight: bold;
+            padding-left: 0.2rem;
+        }
+        .am-list-body{
+            border:0;
+            &::before{
+                height: 0;
+            }
+            &::after{
+                height: 0;
+            }
+            .am-list-item{
+                padding-left: 0.2rem;
+                padding-right: 0.2rem;
+            }
+            .am-list-item .am-list-line{
+                padding-right: 0;
+                border-bottom: 1px solid @fontC7;
+                .am-list-content{
+                    font-size: 0.14rem;
+                    color: @fontC1;
+                }
+                .am-list-arrow {
+
+                    display: block;
+                    width: 15px;
+                    height: 15px;
+                    margin-left: 8px;
+                    background-image: url('/imgs/credit/arrows-gray.svg');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: 50% 50%;
+                }
+            }
+            
+        }
+    }
+}

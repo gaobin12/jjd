@@ -1,0 +1,115 @@
+#g_telephone {
+	font-family: PingFangSC-Regular;
+	background: #fff;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	.am-list .am-list-item.am-checkbox-item .am-list-thumb .am-checkbox-inner {
+		left: 24%;
+		top: 18px;
+	}
+	// .am-checkbox-agree .am-checkbox-agree-label {
+	// 	margin: 0 auto;
+	// }
+	// .am-checkbox-agree .am-checkbox {
+	// 	left: 40px;
+	// 	top: 2px;
+	// }
+	.am-list-body::before {
+		content: "";
+		display: block;
+		display: none;
+	}
+	.am-checkbox.am-checkbox-checked .am-checkbox-inner {
+	    border-color: #F88F5B;
+		background-color: #F88F5B;
+	}
+	.tiaozheng {
+		font-size: 12px;
+		color: #999999;
+		line-height: 12px;
+	}
+	.position {
+		width: 100%;
+		border-top: none;
+		position: fixed;
+		bottom: 54px;
+		left: 50%;
+		transform: translateX(-50%);
+		.bottom_choose {
+			line-height: 36px;
+			text-align: center;
+		}
+		.choose_icon {
+			position: absolute;
+			top: 10px;
+			left: 10px;
+		}
+	}
+	.am-checkbox-inner:after {
+	    position: absolute;
+	    display: none;
+	    top: 1.5px;
+	    right: 18px;
+	    z-index: 999;
+	    width: 5px;
+	    height: 11px;
+	    border-style: solid;
+	    border-width: 0 1px 1px 0;
+	    content: " ";
+	}
+	.am-checkbox-inner {
+	    width: 12px;
+	    height: 12px
+    }
+    .am-list-content {
+    	text-align: center;
+    }
+	.formList {
+		display: flex;
+		height: 50px;
+		border-bottom: 1px solid #F3F3F3;
+		line-height: 50px;
+		.floatLeft {
+			font-size: 14px;
+			color: #999999;
+			flex: 1;
+			img {
+				width: 12px;
+				height: 12px;
+				margin-left: 5px;
+			}
+		}
+		.floatRight {
+			flex: 2;
+			text-align: right;
+			font-size: 14px;
+			color: #333333;
+			.hasSub {
+				line-height: 30px;
+			}
+			span {
+				display: block;
+				font-size: 10px;
+				color: #999999;
+				line-height: 10px;
+			}
+		}
+	}
+	.btn {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 50px;
+		background: #4A505E;
+		font-size: 16px;
+		color: #FFFFFF;
+		text-align: center;
+		line-height: 50px;
+	}
+	.rules {
+		font-style: normal;
+		font-size: 12px;
+		color: #F88F5B;
+	}
+}

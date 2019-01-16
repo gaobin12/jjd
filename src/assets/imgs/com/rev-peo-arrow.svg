@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="15px" viewBox="0 0 10 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>iPhone 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.6">
+        <g id="iPhone-7" fill-rule="nonzero" fill="#000000">
+            <path d="M-2,4.73928994 C-2,4.56907813 -1.9276107,4.39899846 -1.78351138,4.26925427 C-1.49468853,4.00940253 -1.02763709,4.00940253 -0.738795883,4.26925427 L4.95860747,9.39516524 L10.7386261,4.19492597 C11.0274122,3.93502468 11.4944636,3.93502468 11.7833416,4.19492597 C12.0722195,4.45477772 12.0722195,4.87494735 11.7833416,5.13484865 L5.48093768,10.805074 C5.19205976,11.0649753 4.7250634,11.0649753 4.43622219,10.805074 L-1.78349302,5.20929257 C-1.92748219,5.07963098 -2,4.90953479 -2,4.73928994 L-2,4.73928994 Z" id="Shape" transform="translate(5.000000, 7.500000) rotate(270.000000) translate(-5.000000, -7.500000) "></path>
+        </g>
+    </g>
+</svg>

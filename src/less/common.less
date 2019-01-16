@@ -1,0 +1,390 @@
+
+@import "./var";
+
+.am-button-primary{
+    background-color: #ff9900!important
+}
+html {
+	background-color: #F6F7FA!important;
+}
+
+//新版   公共样式
+//数字字体
+.num-font{
+    font-family: numberFont!important;
+    input{
+        font-family: numberFont!important;
+    }
+}
+.mainC1{
+    color: @mainC1!important;
+}
+.mainC2{
+    color: @mainC2!important;
+}
+.fontC1{
+    color: @fontC1!important;
+}
+.fontC2{
+    color: @fontC2!important;
+}
+.fontC3{
+    color: @fontC3!important;
+}
+.fontC4{
+    color: @fontC4!important;
+}
+.fontC5{
+    color: @fontC5!important;
+}
+.fontC6{
+    color: @fontC6!important;
+}
+.fontC7{
+    color: @fontC7!important;
+}
+.font36{
+    font-size: .36rem!important;
+}
+.font34{
+    font-size: .34rem!important;
+}
+.font32{
+    font-size: .32rem!important;
+}
+.font30{
+    font-size: .30rem!important;
+}
+.font28{
+    font-size: .28rem!important;
+}
+.font26{
+    font-size: .26rem!important;
+}
+.font24{
+    font-size: .24rem!important;
+}
+.font22{
+    font-size: .22rem!important;
+}
+.font20{
+    font-size: .20rem!important;
+}
+.font18{
+    font-size: .18rem!important;
+}
+.font16{
+    font-size: .16rem!important;
+}
+.font14{
+    font-size: .14rem!important;
+}
+.font12{
+    font-size: .12rem!important;
+}
+.font10{
+    font-size: .12rem!important;
+    transform: scale(.83);
+}
+.font-bold{
+    font-weight: bold;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right
+}
+.text-left{
+    text-align: left!important;
+}
+.text-center{
+    text-align: center!important;
+}
+.text-right{
+    text-align: right!important;
+}
+.width50{
+    width: 50%;
+}
+.width33{
+    width: 33.33%;
+}
+.width20{
+    width: 20%;
+}
+.com-title-left{
+    display: inline-block;
+    width: 100%;
+    color:  @mainC2;
+    .font16;
+    text-align: left;    
+    padding-left: 8px;
+    font-weight: bold;
+    font-family: PingFangSC-Semibold;
+    position: relative;
+    &::before{
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 3px;
+        height: 14px;
+        background: @mainC2;
+    }
+}
+.padding-bottom{
+    padding-bottom: 50px;
+}
+//底部按钮父级
+.common-btn_box{
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #fff;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-self: center;
+    box-shadow: 0 0 10px 0 rgba(163,163,163,0.18);
+    //左侧白色按钮父级   子集为span    使用TAP组件即可
+    &>.span{
+        display: inline-block;
+        height: 100%;
+        flex: 1;
+        padding: 0 1.6%;
+        text-align: center;
+        background: rgb(255, 255, 255);
+        font-size: .14rem;
+        color: @mainC2;
+        position: relative;
+        &.red-tab{
+            position: relative;
+            &::after{
+                display: inline-block;
+                content: '';
+                position: relative;
+                background: red;
+                width: 4px;
+                height: 4px;
+                border-radius: 50%;
+                top: -12px;
+            }
+        }
+        &::before{
+            display: block;
+            content: '';
+            position: absolute;
+            height: 10px;
+            width: 2px;
+            left: -1px;
+            background-color: @mainC2;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        &:first-child::before{
+            display: none;
+        }
+    }
+    //右侧黑色按钮    class增加  active  时是激活样式
+    .c-black{
+        flex: 1;
+        background: @fontC5;
+        color: #fff;
+        &.active{
+            background: @mainC2;
+        }
+        &::before{
+            display: none;
+        }
+    }
+}
+//四个按钮同时在时，白背景，边框按钮
+.common-btn_box4{
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+    box-shadow: 0 0 10px 0 rgba(163,163,163,0.18);
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    .span{
+        &:first-child{
+            margin-left: 8px;
+        }
+        margin-right: 8px;
+        display: inline-block;
+        height: 32px;
+        flex: 1;
+        border: 1px solid @mainC2;
+        color: @mainC2;
+        border-radius: 4px;
+        text-align: center;
+        line-height: 30px;
+    }
+}
+
+
+.com-btn_self{
+    display: inline-block;
+    border-radius: 4px;
+    font-size: .12rem;
+    text-align: center;
+}
+
+//公共按钮   边框样式
+.com-btn-border{
+    .com-btn_self;
+    width: .88rem;
+    height: .28rem;
+    line-height: .28rem;
+    color: @mainC2;
+    border: 1px solid @mainC2;
+}
+//公共按钮   实心
+.com-btn-solid{
+    .com-btn_self;
+    width: .88rem;
+    height: .28rem;
+    line-height: .28rem;
+    background: @mainC2;
+    color: #fff;
+}
+//公共按钮   渐变
+.com-btn-grandual{
+    .com-btn_self;
+    width: .88rem;
+    height: .28rem;
+    line-height: .28rem;
+    background: @mainC3;
+    color: #fff;
+    border-radius: 4px;
+}
+.com-btn-border-color{
+    .com-btn_self;
+    width: .88rem;
+    height: .28rem;
+    line-height: .28rem;
+    color: @mainC1;
+    border: 1px solid @mainC1;
+}
+
+.com-btn-border--big{
+    .com-btn_self;
+    width: 1.26rem;
+    height: .32rem;
+    line-height: .32rem;
+    color: @mainC2;
+    border: 1px solid @mainC2;
+    border-radius: 4px;
+}
+
+.com-btn-solid--big{
+    .com-btn_self;
+    width: 1.26rem;
+    height: .32rem;
+    line-height: .32rem;
+    color: #fff;
+    background: @mainC2;
+    border-radius: 4px;
+}
+
+//公共按钮   单选或者多选按钮   active  为选中状态
+.com-check{
+    .com-btn_self;
+    width: .76rem;
+    height: .26rem;
+    line-height: .26rem;
+    border: 1px solid @fontC6;
+    border-radius: 14px;
+    color: @fontC1;
+    &.active{
+        border-color: @mainC1;
+        color: @mainC1;
+    }
+}
+
+
+//下边框
+.common-border-bottom{
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        background-color: #ddd;
+        display: block;
+        z-index: 1;
+        top: auto;
+        right: auto;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 1PX;
+        transform-origin: 50% 100%;
+        transform: scaleY(0.5);
+    }
+}
+//上边框
+.common-border-top{
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        background-color: #ddd;
+        display: block;
+        z-index: 1;
+        bottom: auto;
+        right: auto;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1PX;
+        transform-origin: 50% 100%;
+        transform: scaleY(0.5);
+    }
+}
+
+.common-no-data{
+    line-height: 50px;
+    text-align: center;
+    font-size: .14rem;
+    color: #999;
+}
+
+.common-view-in{
+    height: 100%;
+    overflow: auto;
+}
+
+.am-modal-transparent{
+    width: 80%!important;
+}
+// 标题样式
+@color: #4B505F;
+.g-title {
+    font-family: PingFangSC-Semibold;
+    font-size: 16px;
+    color: @color;
+    line-height: 12px;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    &::before {
+        content: '';
+        display: block;
+        width: 3px;
+        height: 14px;
+        position: absolute;
+        left: 0px;
+        top: 14px;
+        background-color: @color;
+    }
+}

@@ -1,0 +1,107 @@
+
+.view-filter-item{
+    font-size: .14rem;
+    padding-bottom: .6rem;
+    position: relative;
+    height: 100vh;
+    .price-range{
+        margin-bottom: 10px;
+        padding: 0 10px;
+        height: 44px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        background: #fff;
+        .left{
+
+        }
+        .right{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+            input{
+                text-align: right;
+                border: 0;
+                outline: none;
+                width: .8rem;
+            }
+            .min{
+
+            }
+            .max{
+
+            }
+        }
+    }
+    .date-title{
+        padding: 0 10px;
+        height: 44px;
+        line-height: 44px;
+    }
+    .date-item{
+        .am-list-item .am-list-line {
+            .am-list-content{
+                font-size: .14rem
+            }
+            .am-list-extra{
+                font-size: .14rem
+            }
+        }
+    }
+
+    .tag-list{
+        margin-top: 10px;
+        line-height: 44px;
+        .am-list-body{
+            padding: 0 10px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+            .left{
+                white-space: nowrap;
+                align-self: baseline;
+            }
+            .right{
+                .tag-div{
+                    display: inline-block;
+                    margin-left: 10px;
+                    border-radius: 3px;
+                    padding: 0 .15rem;
+                    line-height: 1.8;
+                    border: 1px solid #ccc;
+                    &.active{
+                        border-color: #ff9900
+                    }
+                }
+                
+                &.multiple{
+                    line-height: 22px;
+                    .tag-div{
+                        margin-top: 10px;
+                        &:last-child{
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .bottom-btns{
+        position: absolute;
+        bottom: 0;
+        height: .6rem;
+        width: 100%;
+        background: #fff;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        span{
+            width: 42%;
+        }
+    }
+}

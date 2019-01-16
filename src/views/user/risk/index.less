@@ -1,0 +1,249 @@
+
+
+
+
+.view-risk {
+     // mui中的样式
+    .mui-checkbox, .mui-radio{
+        position: relative;
+    }
+    .mui-checkbox label, .mui-radio label{
+        display: inline-block;
+        float: none;
+        width: 100%;
+    }
+    .mui-checkbox input[type=checkbox], .mui-radio input[type=radio]{
+        position: absolute;
+        top: 4px;
+        right: 20px;
+        display: inline-block;
+        width: 28px;
+        height: 26px;
+        border: 0;
+        outline: 0!important;
+        background-color: transparent;
+        -webkit-appearance: none;
+    }
+    .mui-checkbox.mui-left input[type=checkbox], .mui-radio.mui-left input[type=radio]{
+        left:0.2rem;
+    }
+    input[type=checkbox], input[type=radio]{
+        box-sizing: border-box;
+        padding: 0;
+    }
+    .mui-checkbox input[type=checkbox]:before, .mui-radio input[type=radio]:before{
+        font-family: Muiicons;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 1;
+        text-decoration: none;
+        color: #aaa;
+        border-radius: 0;
+        background: 0 0;
+        -webkit-font-smoothing: antialiased;
+    }
+    .mui-checkbox input[type=checkbox]:checked:before, .mui-radio input[type=radio]:checked:before{
+        color: #ff9900;
+    }
+   
+
+
+
+
+    .am-list.ri-tip  .am-list-body .am-list-item{
+        min-height: 0;
+        height: 0.3rem;
+        line-height: 0.3rem;
+        background: #ff9900;
+        color: #fff;
+        text-align: left;
+    }
+    .am-list.ri-tip .am-list-line .am-list-content{
+        color: #fff;
+        font-size: 0.11rem;
+    }
+    .am-list.ri-tip .am-list-line .am-list-extra{
+        color: #fff;
+        font-size: 0.11rem;
+    }
+    // 选择卡
+    .my-radio .am-radio {
+        width: 0.15rem;
+        height: 0.15rem;
+        padding: 0.025rem;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        margin-right: 0.05rem;
+    }
+    .am-radio-inner{
+        display: inline-block;
+        width: 0.13rem;
+        height: 0.13rem;
+        line-height: 0.13rem;
+        top: 0;
+    }
+    .am-radio.am-radio-checked{
+        border: 1px solid #ff9900;
+    }
+    .am-radio-inner:after{
+        position: absolute;
+        display: none;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 50%;
+        margin-left: -0.03rem;
+        z-index: 999;
+        width: 0.04rem;
+        height: 0.04rem;
+        border-radius: 50%;
+        background-color: #ff9900;
+        border-style: solid;
+        /* border-width: 0 1.5px 1.5px 0; */
+        content: " ";
+    }
+    
+    .am-list-content .am-radio-wrapper.my-radio{
+        display: block;
+        font-size: 0.14rem;
+        color: #666;
+        line-height: 0.3rem;
+    }
+    .am-list-item .am-list-line .am-list-content, .am-list-item .am-list-line .am-list-extra{
+        white-space: normal;
+    }
+    //   按钮
+    .bottom-btn {
+        width: 100%;
+        padding: 10px;
+    }
+    .bottom-btn .am-button-primary{
+        background: #ff9900;
+        border:1px solid #ff9900;
+        &:before {
+            border:1px solid #ff9900;
+        }
+    }
+    // mui单选样式
+
+    .iou-part-select{
+        width: 100%;
+        overflow: hidden;
+        height: auto;
+        background: #fff;
+        line-height: 0.3rem;
+        margin-top: 0.1rem;
+    }
+    .iou-part-select .mui-input-row{
+        width: 100%;
+        float: left;
+        clear: none;
+    }
+    .mui-checkbox input[type=checkbox], .mui-radio input[type=radio]{
+        width: 0.18rem;
+        height:0.18rem;
+    }
+    .iou-part-select .mui-input-row.mui-radio.mui-left label{
+        padding: 6px 0 0 50px;
+    }
+    .iou-part-select .mui-input-row.mui-radio input[type=radio]:before{
+        font-size: 18px;
+    }
+    .iou-part-select .mui-input-row.mui-radio input[type=radio]{
+        top:0.06rem;
+    }
+    .i-title{
+        padding: 0.05rem 0;
+        font-size: 0.17rem;
+        padding-left: 0.15rem;
+        position: relative;
+    }
+    .i-title::after{
+        display: block;
+        content: "";
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: #eee;
+        height: 1px;
+        width: 95%;
+    }
+    .mui-checkbox label, .mui-radio label{
+        line-height: 0.2rem;
+    }
+
+    .tips-Item{
+        color: #fff;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 0.3rem;
+        line-height: 0.3rem;
+        font-size: 0.11rem;
+    }
+   
+    // 修改前面字体图片样式
+    /*修改复选框的样式*/
+        .myCheck + span{
+            background-color: white;
+            border-radius: 50%;
+            border:1px solid #c0c0c0;
+            width:16px;
+            height:16px;
+            display: inline-block;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 20px;
+            cursor:help;
+            /*取消选中*/
+            -moz-user-select:none;/*火狐*/
+            -webkit-user-select:none;/*webkit浏览器*/
+            -ms-user-select:none;/*IE10*/
+            -khtml-user-select:none;/*早期浏览器*/
+            user-select:none;
+            position: absolute;
+            left: 21px;
+            top: 7px;
+        }
+
+        .myCheck:checked + span{
+            width: 18px;
+            height: 18px;
+            background-color: #ff9900;
+            border-radius: 50%;
+            position: absolute;
+            cursor:help;
+            border: 1px solid #ff9900;
+            /*取消选中*/
+            -moz-user-select:none;/*火狐*/
+            -webkit-user-select:none;/*webkit浏览器*/
+            -ms-user-select:none;/*IE10*/
+            -khtml-user-select:none;/*早期浏览器*/
+            user-select:none;
+        }
+
+        .myCheck:checked + span:after{
+            content: "";
+            display: block;
+            position: absolute;
+            top: -0.8px;
+            left: 5px;
+
+            width: 5px;
+            height: 11px;
+            border-color: #fff;
+            border-style: solid;
+            border-width: 0 1px 1px 0;
+            content: " ";
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+
+
+
+
+
+
+
+
+}

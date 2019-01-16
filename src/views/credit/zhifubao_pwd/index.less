@@ -1,0 +1,249 @@
+.view-login {
+    background-color: #fff;
+    .captcha{
+        padding: .3rem;
+        width: 100%;
+        display: block;
+    }
+    .login_input{
+        caret-color: #ff9900;
+    }
+    .view-con{
+        padding: 0 .3rem;
+        padding-top: 0.64rem;
+        
+    }
+    .hello{
+        font-size: 0.36rem;
+        color: #333;
+        line-height: 0.4rem;
+        &.size22{
+            font-size: 0.22rem;
+            line-height: 0.4rem;
+            text-align: center;
+            padding-bottom: 0.2rem;
+        }
+    }
+    
+    .wel{
+        padding-top: 28px;
+        font-size: 0.18rem;
+        line-height: 0.18rem;
+        color: #999;
+        padding-bottom: 0.2rem;
+    }
+    .txt-tip{
+        font-size: 0.18rem;
+        color: #FF9900;
+        padding-left: 0.14rem;
+    }
+    .am-list-item.am-input-item{
+        padding-left: 0;
+    }
+    .list .am-list-body:before{
+        height: 0!important;
+    }
+    .am-list-item .am-input-control input::-webkit-input-placeholder{
+        font-size: 0.16rem;
+        color: #DDDDDD;
+    }
+    .am-list-body:after{
+        height: 0;
+    }
+    .am-list-item .am-input-control input{
+        font-size: 0.18rem;
+        color: #333;
+    }
+    .am-list-item.am-input-item{
+        height: 0.64rem;
+    }
+    .am-list-body:after{
+        height: 0!important;
+    }
+    // 按钮
+    .bottom-btn {
+        margin-top: .28rem;
+        width: 100%;
+        background: #fff;
+    }
+	.bottom-btn.am-button-primary{
+        background: #4B505F!important; 
+        font-size: 0.16rem;
+        color: #FFFFFF;
+    }
+     .bottom-btn.active.am-button-primary{
+        background: rgba(75,80,95,0.50)!important; 
+    }
+    .common-jc-error{
+        padding: 0;
+        color: #F94142;
+    }
+    .zfb_code{
+        .zfb_code_font{
+            position: absolute;
+            right: 0;
+            bottom:0.2rem;
+            font-size: 0.16rem;
+            color: #4B505F;
+        }
+        &.am-list-item .am-input-label.am-input-label-5{
+            width: 0;
+            margin: 0;
+        }
+        &.am-list-item .am-input-control{
+            margin-right: 1.1rem;
+        }
+        &.am-list-item.am-input-focus .am-input-clear {
+            position: absolute;
+            right: 1rem;
+        }
+    }
+
+    .popup-box {
+        font-style: 0.14rem;
+    }
+    .time-tip {
+        font-size: 0.14rem;
+        color: rgb(51, 51, 51);
+    }
+    .fade-transition {
+        background: rgba(0, 0, 0, .8);
+        z-index: 3;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    .waiting {
+        height: 2.65rem;
+        z-index: 3;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -1.4rem;
+        width: 2.8rem;
+        margin-top: -1.32rem;
+        background-color: #fff;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+    .mui-slider .mui-slider-group .mui-slider-item {
+        font-size: 0.14rem;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        vertical-align: top;
+        white-space: normal;
+    }
+    .wait_tip {
+        text-align: center;
+        font-size: 0.14rem;
+        line-height: 1.6;
+        margin-top: 0.2rem;
+    }
+    .title_op {
+        font-size: 0.16rem;
+        font-weight: 700;
+    } // 动态小圆点
+    .more_op {
+        text-align: center;
+        padding: 0.1rem 0;
+    }
+    .more_op span {
+        display: inline-block;
+        width: 0.12rem;
+        height: 0.12rem;
+        margin: 0 0.03rem;
+        background-color: #ccc;
+        -moz-border-radius: 100%;
+        border-radius: 100%;
+        vertical-align: middle;
+        -webkit-animation: bounce 1.6s infinite ease-in-out;
+        -moz-animation: bounce 1.6s infinite ease-in-out;
+        animation: bounce 1.6s infinite ease-in-out;
+        -webkit-animation-fill-mode: both;
+        -moz-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+    @keyframes bounce {
+        0%,
+        80%,
+        to {
+            -webkit-transform: scale(0);
+            transform: scale(0)
+        }
+        40% {
+            -webkit-transform: scale(1);
+            transform: scale(1)
+        }
+    }
+    .more_op span.dot_1 {
+        -webkit-animation-delay: -.32s;
+        -moz-animation-delay: -.32s;
+        animation-delay: -.32s
+    }
+    .more_op span.dot_2 {
+        -webkit-animation-delay: -.16s;
+        -moz-animation-delay: -.16s;
+        animation-delay: -.16s
+    } // 小提示
+    .tips_op {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        -moz-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        align-items: center;
+    }
+    .pay_tips_op {
+        width: 100%;
+        height: 1.3rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        flex-direction: column;
+        margin-top: 0.1rem;
+        color: #999;
+        font-size: 0.14rem;
+        line-height: 0.22rem;
+    }
+    .box_op {
+        height: 0.78rem;
+        position: relative;
+        width: 2.4rem;
+    }
+    .box_op>div {
+        width: 100%;
+        height: 100%;
+        padding: 0.1rem 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-indent: 2em;
+    }
+    
+}

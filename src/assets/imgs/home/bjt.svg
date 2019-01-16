@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="图标" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-2">
+            <circle id="Oval-3" fill="#FFF7E8" cx="25" cy="25" r="25"></circle>
+            <polygon id="Shape" fill="#FF9900" fill-rule="nonzero" points="15.6167401 33.6608612 23.2819383 33.6608612 23.2819383 34.8062357 15.6167401 34.8062357"></polygon>
+            <polygon id="Shape" fill="#FF9900" fill-rule="nonzero" points="26.1013216 33.6608612 34.4713656 33.6608612 34.4713656 34.8062357 26.1013216 34.8062357"></polygon>
+            <polygon id="Shape" fill="#FF9900" fill-rule="nonzero" points="27.9042015 16.7445617 32.7092511 21.5496113 22.1839043 32.0749582 17.3788546 27.2699085"></polygon>
+            <path d="M30.7857444,15.2928936 L34.1953626,18.7025118 C34.5858869,19.0930361 34.5858869,19.726201 34.1953626,20.1167253 C34.1898373,20.1222506 34.1842475,20.1277109 34.1785942,20.1331052 L33.1957633,21.0709054 L28.371543,16.2466851 L29.3882992,15.2765138 C29.7812626,14.9015549 30.4016777,14.9088269 30.7857444,15.2928936 Z" id="Shape" fill="#FF9900" fill-rule="nonzero"></path>
+            <polygon id="Shape" fill="#FF9900" fill-rule="nonzero" points="16.9293661 27.7577775 21.6960352 32.5651875 15 34.4538128 16.9293661 27.7577775"></polygon>
+        </g>
+    </g>
+</svg>

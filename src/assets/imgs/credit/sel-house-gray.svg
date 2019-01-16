@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 4 Copy 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard-4-Copy-8" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-9-Copy-4" fill="#F6F7FA" x="0" y="0" width="24" height="24" rx="4"></rect>
+        <g id="Group-13" transform="translate(6.000000, 6.000000)">
+            <path d="M10.9464687,0.889100216 C11.150667,0.889100216 10.7411846,0.889100216 11.0045423,0.889100216 L12,0.889100216 C12,0.336600216 11.4885,0 10.857,0 L5.143,0 C4.5115,0 4,0.4475 4,1 L4,4 L1,4 C0.4475,4 0,4.4475 0,5 L0,12 L7,12 L7,9 L9,9 L9,12 L12,12 L12,0.889100216 L11.1267665,0.889100216 C10.9774209,0.889100216 10.9464687,0.889100216 10.9464687,0.889100216 Z M0.82654241,11.20588 L0.82654241,5.5 C0.82654241,5.5 0.702319058,4.83381558 1.29180752,4.83381558 L4,4.83381558 L4,11.20588 L0.82654241,11.20588 Z" id="Office" fill="#CCCCCC"></path>
+            <path d="M8.5,2 L7.5,2 C7.224,2 7,2.224 7,2.5 L7,3.5 C7,3.776 7.224,4 7.5,4 L8.5,4 C8.776,4 9,3.776 9,3.5 L9,2.5 C9,2.224 8.776,2 8.5,2 Z" id="Path" fill="#F6F7FA"></path>
+            <path d="M8.5,5 L7.5,5 C7.224,5 7,5.224 7,5.5 L7,6.5 C7,6.776 7.224,7 7.5,7 L8.5,7 C8.776,7 9,6.776 9,6.5 L9,5.5 C9,5.224 8.776,5 8.5,5 Z" id="Path-Copy" fill="#F6F7FA"></path>
+            <polygon id="Path" fill="#CCCCCC" points="8.5 3.5 8.5 2.5 7.5 2.5 7.5 3.5"></polygon>
+            <polygon id="Path-Copy-2" fill="#CCCCCC" points="8.5 6.5 8.5 5.5 7.5 5.5 7.5 6.5"></polygon>
+        </g>
+    </g>
+</svg>

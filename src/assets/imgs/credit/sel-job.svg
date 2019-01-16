@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 7 Copy 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.0140769231,5.98174038 L0.0140769231,10.5644135 C0.0140769231,11.1938365 0.526168269,11.7059135 1.15573558,11.7059135 L10.8583125,11.7059135 C11.487851,11.7059135 11.9996394,11.1938365 11.9996394,10.5644135 L11.9996394,5.98174038 L0.0140769231,5.98174038 Z M8.86061538,2.35329808 L8.86061538,0.862125 C8.86061538,0.391038462 8.47521635,0.00563942308 8.00454808,0.00563942308 L4.00947115,0.00563942308 C3.53837019,0.00563942308 3.15297115,0.391038462 3.15297115,0.862125 L3.15297115,2.35329808 L1.15559135,2.35329808 C0.526168269,2.35329808 0.0143798077,2.86508654 0.0143798077,3.49478365 L0.0143798077,5.40588462 L2.28494712,5.40588462 L3.14098558,5.40588462 L8.87701442,5.40588462 L9.73306731,5.40588462 L11.9999567,5.40588462 L11.9999567,3.49478365 C11.9999423,2.86508654 11.487851,2.35329808 10.8583125,2.35329808 L8.86061538,2.35329808 Z M8.28972115,2.35329808 L3.72387981,2.35329808 L3.72387981,0.576230769 L8.28972115,0.576230769 L8.28972115,2.35329808 Z" id="path-1"></path>
+        <filter x="-41.7%" y="-34.2%" width="183.4%" height="185.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.705649447   0 0 0 0 0.705649447   0 0 0 0 0.705649447  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Artboard-7-Copy-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3">
+            <rect id="Rectangle-9-Copy" fill="#F6F7FA" x="0" y="0" width="24" height="24" rx="4"></rect>
+            <g id="工作" transform="translate(6.000000, 6.000000)" fill-rule="nonzero">
+                <g id="Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#4B505F" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+            <rect id="Rectangle-4" fill="#FFFFFF" x="6" y="11" width="12" height="1"></rect>
+            <rect id="Rectangle-4" fill="#FFFFFF" transform="translate(9.500000, 11.500000) rotate(-270.000000) translate(-9.500000, -11.500000) " x="8" y="11" width="3" height="1"></rect>
+            <rect id="Rectangle-4-Copy" fill="#FFFFFF" transform="translate(14.500000, 11.500000) rotate(-270.000000) translate(-14.500000, -11.500000) " x="13" y="11" width="3" height="1"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,353 @@
+
+html {
+	background-color: #fff!important;
+}
+body {
+    font-family: -apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif;
+	background-color: #fff !important;
+	font-size: 14px;
+}
+.com_body{
+	font-family: -apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif;
+	background-color: #fff !important;
+	font-size: 14px;
+}
+#app{
+	background: #fff;
+}
+.bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0.1rem;
+    background: #ffffff;
+    width: 100%;
+    z-index: 2;
+}
+.bottom.bottom_fixeds{
+    right: 0;
+    margin-top: 0;
+    margin-bottom: 0!important;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+}
+.bottom.bottom_fixed {
+    right: 0;
+    margin-top: 0;
+}
+.bottom_button {
+    width: 100%;
+    height:0.48rem;
+    line-height: 0.48rem;
+    text-align: center;
+    background: #ff9900;
+    color: #fff;
+    font-size: 0.15rem;
+}
+a{
+    color: #ff9900;
+}
+a:active {
+    color: #ff9900;
+}
+.flexFather {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	   -moz-box-orient: horizontal;
+	   -moz-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-flex-wrap: nowrap;
+	    -ms-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+}
+
+.flex1 {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	   -moz-box-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+}
+
+.flex2 {
+	-webkit-box-flex: 2;
+	-webkit-flex: 2;
+	   -moz-box-flex: 2;
+	    -ms-flex: 2;
+	        flex: 2;
+}
+
+.flex3 {
+	-webkit-box-flex: 3;
+	-webkit-flex: 3;
+	   -moz-box-flex: 3;
+	    -ms-flex: 3;
+	        flex: 3;
+}
+
+.flex4 {
+	-webkit-box-flex: 4;
+	-webkit-flex: 4;
+	   -moz-box-flex: 4;
+	    -ms-flex: 4;
+	        flex: 4;
+}
+
+.flex5 {
+	-webkit-box-flex: 5;
+	-webkit-flex: 5;
+	   -moz-box-flex: 5;
+	    -ms-flex: 5;
+	        flex: 5;
+}
+
+.flex6 {
+	-webkit-box-flex: 6;
+	-webkit-flex: 6;
+	   -moz-box-flex: 6;
+	    -ms-flex: 6;
+	        flex: 6;
+}
+
+.flex7 {
+	-webkit-box-flex: 7;
+	-webkit-flex: 7;
+	   -moz-box-flex: 7;
+	    -ms-flex: 7;
+	        flex: 7;
+}
+
+.flex7 {
+	-webkit-box-flex: 7;
+	-webkit-flex: 7;
+	   -moz-box-flex: 7;
+	    -ms-flex: 7;
+	        flex: 7;
+}
+
+.flex8 {
+	-webkit-box-flex: 8;
+	-webkit-flex: 8;
+	   -moz-box-flex: 8;
+	    -ms-flex: 8;
+	        flex: 8;
+}
+
+.flex9 {
+	-webkit-box-flex: 9;
+	-webkit-flex: 9;
+	   -moz-box-flex: 9;
+	    -ms-flex: 9;
+	        flex: 9;
+}
+
+.flex10 {
+	-webkit-box-flex: 10;
+	-webkit-flex: 10;
+	   -moz-box-flex: 10;
+	    -ms-flex: 10;
+	        flex: 10;
+}
+
+.flex11 {
+	-webkit-box-flex: 11;
+	-webkit-flex: 11;
+	   -moz-box-flex: 11;
+	    -ms-flex: 11;
+	        flex: 11;
+}
+
+.flex12 {
+	-webkit-box-flex: 12;
+	-webkit-flex: 12;
+	   -moz-box-flex: 12;
+	    -ms-flex: 12;
+	        flex: 12;
+}
+
+.textRight {
+	text-align: right;
+}
+
+.textCenter {
+	text-align: center;
+}
+
+.mainColor {
+	color: #ff9900;
+}
+
+.mainColorBg {
+	background-color: #ff9900;
+}
+
+.minorColor {
+	color: #ff9900;
+}
+
+.minorColorBg {
+	background-color: #ED594E;
+}
+
+.grayColor {
+	color: #ccc
+}
+
+.grayColorBg {
+	background-color: #ccc;
+}
+
+.wallColorBgColorBg {
+	background-color: #FFFFFF;
+}
+
+.questionColor {
+	color: #F8F8F8;
+}
+
+.questionColorBg {
+	background-color: #F8F8F8;
+}
+
+.mainTextColor {
+	color: #666;
+}
+
+.minorTextColor {
+	color: white;
+}
+
+.strongTextColor {
+	color: #333
+}
+
+.tipTextColor {
+	color: #999;
+}
+.blackTextColor{
+	color: #333;
+}
+.grayTex#333{
+	color: #333;
+}
+.disabledColor {
+	color: #aaa;
+}
+.grayTextColor{
+	color: #999;
+}
+.disabledColorBg {
+	color: #aaaaaa;
+}
+
+.headColor {
+	background-color: #4D5061;
+}
+
+.minFontSize {
+	font-size: 12px;
+}
+
+.baseFontSize {
+	font-size: 16px;
+}
+
+.largeFontSize {
+	font-size: 20px;
+}
+
+.maxFontSize {
+	font-size: 25px;
+}
+
+.buttonFontSize {
+	font-size: 14px;
+}
+
+.tipFontSize {
+	font-size: 14px;
+}
+
+.titleFontSize {
+	font-size: 16px;
+}
+.marbt60 {
+    margin-bottom: 80px !important;
+}
+.am-checkbox.am-checkbox-checked .am-checkbox-inner{
+	border-color: #ff9900!important;
+    background: #ff9900!important;
+}
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea{
+margin-bottom: 0;
+}
+.am-list-item .am-list-line{
+    padding-right: 10px;
+}
+.am-list-item.am-input-item{
+    padding-left: 10px;
+}
+.am-input-item{
+    min-height:50px;
+    padding-left: 10px;
+}
+.am-list-item .am-list-line .am-list-content{
+    font-size: 14px;
+    color: #333;
+}
+.am-list-item .am-list-line .am-list-extra{
+    font-size: 14px;
+    color: #666;
+}
+.am-list-item .am-input-control input{
+    color: #666;
+    font-size: 14px;
+}
+/* 同意协议按钮样式 */
+.am-checkbox-agree .am-checkbox .am-checkbox-inner{
+    top: 10px;
+}
+.com-bottom-btn {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+    z-index: 2;
+}
+
+.com-bottom-btn .am-button-primary {
+    background: #ff9900;
+    border: 1px solid #ff9900;   
+}
+.com-bottom-btn .am-button-primary:before {
+    border: 1px solid #ff9900;
+}
+.center-text1{
+    padding: 0.1rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #999999;
+    font-size: 0.12rem;
+    padding-left: 0.2rem;
+    padding-bottom: 0.03rem;
+}
+html:not([data-scale]) .app .am-button-primary:before{
+    border: none;
+}

@@ -1,0 +1,238 @@
+
+.view-wy-code{
+    background-color: #fff;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    .view-next-code{
+        padding-top: 1rem;
+        .hello{
+            text-align: center;
+            font-size: 0.22rem;
+            color: #333;
+            line-height: 0.4rem;
+        }
+        h4{
+            font-size: .18rem;
+            font-weight: normal;
+            width: 100%;
+            padding: 0 10px;
+            margin: .5rem 0;
+            position: relative;
+            min-height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .common-inputvalid{
+            padding-top: 25px;
+            padding-bottom: 25px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: flex-start;
+            position: relative;
+            input{
+                font-size: .26rem;
+                line-height: .26rem;
+                margin: 0;
+                width: .4rem;
+                height: .4rem;
+                text-align: center;
+                border-left: 0;
+                border-radius: 0;
+                padding: 0 0 18px 0;
+                border: none;
+                border-bottom: 1px solid #eee;
+                margin-right: 0.1rem;
+                caret-color: #fff;
+                &.active{
+                    border-bottom-color: #333;
+                }
+                &.caret{                        
+                    animation: caret 1.6s linear infinite;
+                    @keyframes caret {
+                        0%{
+                            border-bottom-color: #eee;
+                        }
+                        50%{
+                            border-bottom-color: #333;
+                        }
+                        100%{
+                            border-bottom-color: #eee;
+                        }
+                    }
+                }
+            }
+            
+        }
+        .hidden-input{
+            margin-top: -25px;
+            caret-color: #fff;
+            color: #fff;
+            opacity: 0;
+            height: 1px;      
+            text-indent: -999em;
+            margin-left: -999px;      
+        }
+
+        .al-send{
+            color: #999;
+            margin: 0;
+        }
+        .re-send{
+            text-align: center;
+        }
+        .pt57{
+            padding-top: 0.5rem;
+        }
+    }
+
+
+    .popup-box {
+        font-style: 0.14rem;
+    }
+    .time-tip {
+        font-size: 0.14rem;
+        color: rgb(51, 51, 51);
+    }
+    .fade-transition {
+        background: rgba(0, 0, 0, .8);
+        z-index: 3;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    .waiting {
+        height: 2.65rem;
+        z-index: 3;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -1.4rem;
+        width: 2.8rem;
+        margin-top: -1.32rem;
+        background-color: #fff;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+    .mui-slider .mui-slider-group .mui-slider-item {
+        font-size: 0.14rem;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        vertical-align: top;
+        white-space: normal;
+    }
+    .wait_tip {
+        text-align: center;
+        font-size: 0.14rem;
+        line-height: 1.6;
+        margin-top: 0.2rem;
+    }
+    .title_op {
+        font-size: 0.16rem;
+        font-weight: 700;
+    } // 动态小圆点
+    .more_op {
+        text-align: center;
+        padding: 0.1rem 0;
+    }
+    .more_op span {
+        display: inline-block;
+        width: 0.12rem;
+        height: 0.12rem;
+        margin: 0 0.03rem;
+        background-color: #ccc;
+        -moz-border-radius: 100%;
+        border-radius: 100%;
+        vertical-align: middle;
+        -webkit-animation: bounce 1.6s infinite ease-in-out;
+        -moz-animation: bounce 1.6s infinite ease-in-out;
+        animation: bounce 1.6s infinite ease-in-out;
+        -webkit-animation-fill-mode: both;
+        -moz-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+    @keyframes bounce {
+        0%,
+        80%,
+        to {
+            -webkit-transform: scale(0);
+            transform: scale(0)
+        }
+        40% {
+            -webkit-transform: scale(1);
+            transform: scale(1)
+        }
+    }
+    .more_op span.dot_1 {
+        -webkit-animation-delay: -.32s;
+        -moz-animation-delay: -.32s;
+        animation-delay: -.32s
+    }
+    .more_op span.dot_2 {
+        -webkit-animation-delay: -.16s;
+        -moz-animation-delay: -.16s;
+        animation-delay: -.16s
+    } // 小提示
+    .tips_op {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        -moz-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        align-items: center;
+    }
+    .pay_tips_op {
+        width: 100%;
+        height: 1.3rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        flex-direction: column;
+        margin-top: 0.1rem;
+        color: #999;
+        font-size: 0.14rem;
+        line-height: 0.22rem;
+    }
+    .box_op {
+        height: 0.78rem;
+        position: relative;
+        width: 2.4rem;
+    }
+    .box_op>div {
+        width: 100%;
+        height: 100%;
+        padding: 0.1rem 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-indent: 2em;
+    }
+}

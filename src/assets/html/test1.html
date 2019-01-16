@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <!--不缓存-->
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+        <meta http-equiv="expires" content="0">
+        <meta name="x5-fullscreen" content="true">
+        <meta name="full-screen" content="yes">
+        <title>今借到</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <!-- Browser -->
+        <meta name="format-detection" content="telephone=no, email=no, datetime=no"/>
+        <script type="text/javascript" src="/js/jquery.min.js"></script>
+        <script>
+            var oldFetch = window.fetch;
+            var oldPromise = window.Promise;            
+            var fetch = function(a,b){
+                console.log(a);
+                return oldFetch(a,b);
+            }
+
+            var PromiseCall = function(a,b){
+                console.log(a);
+            }
+            var Promise = function(PromiseCall){
+                oldPromise(PromiseCall);
+            }
+            
+
+            var url = "/js/jquery.min.js"
+            fetch(url).then(function(response) {
+                
+            }).catch(function(err){
+                console.log("Fetch错误:"+err);
+            })
+        </script>
+    </head>
+    <body>
+        wpf
+    </body>
+</html>

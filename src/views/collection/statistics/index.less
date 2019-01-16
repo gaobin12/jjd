@@ -1,0 +1,50 @@
+.statistics {
+	background: #fff;
+	padding: 20px;
+	font-family: PingFangSC-Regular;
+	&:last-child .detail {
+		// background: #546;
+		// border-left: none !important;
+	}
+	i {
+		font-style: normal;
+	}
+	.item {
+		height: 57px;
+		box-sizing: border-box;
+		padding-left: 13px;
+		.item-header {
+			display: flex;
+			.item-left {
+				font-size: 14px;
+				color: #999999;
+				position: relative;
+				&::before {
+					content: '';
+					display: block;
+					position: absolute;
+					top: 4px;
+					left: -13px;
+					width: 8px;
+					height: 8px;
+					background: url('/imgs/iou/time2.svg') no-repeat;
+				}
+			}
+			.item-right {
+				padding-left: 15px;
+				font-size: 14px;
+				color: #333333;
+			}
+		}
+		.detail {
+			padding-top: 12px;
+			padding-left: 84px;
+			font-size: 12px;
+			color: #999999;
+			padding-bottom: 17px;
+			border-left: 2px dotted #F88F5B;
+			position: relative;
+			left: -10px;
+		}
+	}
+}

@@ -1,0 +1,50 @@
+
+
+body{
+    background-color: #efeff4;    
+}
+
+.view-user-setting{
+    .text-cell {
+        height: 0.46rem;
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+        background-color: #fff;
+        line-height: 0.46rem;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        font-size: 0.14rem;
+        color: #333;
+
+        &::after{
+            content: "";
+            display: block;
+            position: absolute;
+            left: 0.2rem;
+            right: 0.2rem;
+            bottom: 0;
+            height: 1px;
+            background-color: #f3f3f3;            
+        }
+
+        .rightBtn {
+            display: block;
+            position: absolute;
+            top: 0;
+            height: 100%;
+            width: 0.08rem;
+            right: 0.2rem;
+            background-image: url(/imgs/com/rightBtn.svg);
+            background-repeat: no-repeat;
+            background-size: 0.08rem 0.14rem;
+            background-position: left center;
+        }        
+    }    
+
+    .text-cell.last{
+        &::after{
+            display: none;
+        }
+    }
+}

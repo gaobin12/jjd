@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="图标" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy">
+            <circle id="Oval-3" fill="#FFF7E8" cx="25" cy="25" r="25"></circle>
+            <g id="极速" transform="translate(19.000000, 13.000000)" fill="#FF9900" fill-rule="nonzero">
+                <path d="M13.6580628,10.9649222 C14.3234089,10.1278192 13.9866805,9.44920027 12.9179327,9.44920027 L9.09455409,9.44920027 L10.1285645,1.37862944 C10.3306923,-0.199153749 9.68687696,-0.461933303 8.6886978,0.794010752 L0.341937164,11.2957401 C-0.32340889,12.1328167 0.0133195104,12.811462 1.08206728,12.811462 L4.90544591,12.811462 L3.688464,22.3102055 C3.58737345,23.0991761 3.90964126,23.2301972 4.40612954,22.605556 L13.6580628,10.9649486 L13.6580628,10.9649222 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

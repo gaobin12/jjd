@@ -1,0 +1,116 @@
+
+
+.view-login {
+    background-color: #fff;
+    .view-con{
+        padding: 0 .3rem;
+        padding-top: 0.64rem;
+        height: 100%;
+        overflow: hidden;
+        .hello{
+            font-size: 0.36rem;
+            color: #333;
+            line-height: 0.4rem;
+        }
+        .wel{
+            padding-top: 28px;
+            font-size: 0.18rem;
+            line-height: 0.18rem;
+            color: #999;
+            padding-bottom: 0.2rem;
+        }
+        .txt-tip{
+            font-size: 0.18rem;
+            color: #FF9900;
+            padding-left: 0.14rem;
+        }
+    }
+    .list{
+        padding-top: 0.2rem;
+        .am-list-item .am-list-line{
+            padding-right: 4px;
+        }
+        .am-input-label.am-input-label-5{
+            position: absolute;
+            right: 0;
+            top:0.1rem;
+            width: 0.4rem;
+            height: 0.4rem;
+            z-index: 2;
+            .box{
+                width: 0.4rem;
+                height: 0.4rem;
+            }
+        }
+        .am-list-item.am-input-item{
+            padding-left: 0;
+        }
+        .am-list-body:before{
+            height: 0!important;
+        }
+        .am-list-body:after{
+            height: 0!important;
+        }
+        .am-list-item .am-input-control input::-webkit-input-placeholder{
+            font-size: 0.16rem;
+            color: #DDDDDD;
+        }
+        .am-list-item .am-input-control input{
+            font-size: 0.18rem;
+            color: #333;
+        }
+        .am-list-item.am-input-item{
+            height: 0.64rem;
+        }
+    }
+    
+    
+    .ipt-psw{
+        position: relative;
+        img{
+            position: absolute;
+            right: 0;
+            top: .155rem;
+        }
+        .am-input-clear{
+            position: absolute;
+            right: 0.4rem;
+            top: 0.214rem;
+        }
+        .am-list-line::before{
+            content: '';
+            position: absolute;
+            background-color: #ddd;
+            display: block;
+            z-index: 1;
+            top: auto;
+            right: auto;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            transform-origin: 50% 100%;
+            transform: scaleY(0.5);
+        }
+
+    }
+    .icon{
+        position: absolute;
+    }
+    .passw{
+        width: 0.2rem;
+        height: 0.14rem;
+        right: 0.3rem;
+        top: 0;
+    }
+    .passw.active{
+       display: none;
+    }
+    .view-login .am-list-item .am-input-label.am-input-label-5{
+        position: absolute;
+        right: 0;
+        width: 0.2rem;
+        height: 0.2rem;
+    }
+    
+}

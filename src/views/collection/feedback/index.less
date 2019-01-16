@@ -1,0 +1,162 @@
+body {
+	// margin-top: -11px;
+	background: #fff;
+}
+input, textarea{
+	-webkit-appearance: none;
+}
+.g_feedOuter {
+	// padding: 0px 10px;
+}
+#g_feedback {
+	background: #fff;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #333333;
+	padding: 0px 25px 0px 20px;
+	margin-top: -1px;
+	box-sizing: border-box;
+	.am-list-item .am-list-line {
+		box-sizing: border-box;
+		padding-right: 0px;
+	}
+	.am-accordion-item {
+		&::after {
+			content: "";
+			display: block;
+			width: 10px;
+			height: 5px;
+			background: #fff;
+			position: absolute;
+			top: 50px;
+			left: -3px;
+			z-index: 7878;
+		}
+		&::before {
+			content: "";
+			display: block;
+			width: 10px;
+			height: 5px;
+			background: #fff;
+			position: absolute;
+			top: -4px;
+			left: 0px;
+			z-index: 7878;
+		}
+	}
+	.am-accordion-header {
+		height: 52px;
+		line-height: 52px;
+		font-size: 16px;
+		color: #4B505F;
+		letter-spacing: 0.8px;
+		border-bottom: 1px solid #F4F4F4 !important;
+		&::before {
+			content: "";
+			display: block;
+			top: 19px;
+			left: 0px;
+			width: 3px;
+			height: 14px;
+			background: #4B505F;
+			position: absolute;
+			z-index: 9999;
+		}
+	}
+	.am-list-item {
+		padding-left: 10px;
+		box-sizing: border-box;
+	}
+	.am-list-item .am-list-item-middle {
+		box-sizing: border-box;
+		overflow: none;
+	}
+	.am-accordion .am-accordion-item .am-accordion-header:after {
+		height: 0px;
+	}
+	.am-accordion:before {
+		height: 0px;
+	}
+	.am-accordion-item {
+		border-bottom: 1px solid #F4F4F4 !important;
+	}
+	.am-accordion .am-accordion-item .am-accordion-header {
+		padding-left: 10px !important;
+	}
+	.am-accordion .am-accordion-item .am-accordion-header[aria-expanded~=false] i {
+    	transform: rotate(0deg);
+	}
+	.am-accordion .am-accordion-item .am-accordion-header[aria-expanded~=true] i {
+    	transform: rotate(90deg);
+	}
+	.am-accordion-header {
+		border-bottom: none;
+	}
+	.am-list-content {
+		line-height: 0.5;
+		padding: 0px;
+	}
+	.am-accordion .am-accordion-item .am-accordion-content {
+		position: relative;
+		z-index: 10;
+		top: -1px;
+		left: 0;
+	}
+	.addSelect {
+		margin-left: -15px;
+	}
+	.my-list {
+		position: relative;
+		box-sizing: border-box;
+		span {
+			height: 46px;
+			font-size: 14px;
+			color: #333333;
+			line-height: 14px;
+		}
+		input {
+			float: right;
+			text-align: right;
+			font-size: 14px;
+			color: #999999;
+		}
+		.textarea_title {
+			padding-left: 15px;
+			font-size: 14px;
+			color: #333333;
+			line-height: 40px;
+			border-bottom: none;
+		}
+		.textarea {
+			font-family: PingFangSC-Light;
+			display: block;
+			width: 98%;
+			height: 112px;
+			padding: 10px;
+			font-size: 12px;
+			color: #999999;
+			border: 1px solid #F3F3F3;
+			border-radius: 4px;
+			outline: none;
+			resize:none;
+			position: relative;
+			top: 0px;
+			left: 5px;
+			margin-right: -5px;
+		}
+	}
+	.arrow {
+		top: 18px;
+		right: 0px;
+	}
+	.relative {
+		position: relative;
+		height: 52px;
+		border-bottom: 1px solid #efefef;
+		line-height: 50px;
+		font-size: 16px;
+		color: #4B505F;
+		letter-spacing: 0.8px;
+		
+	}
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>打借条-添加图片</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="打借条-添加图片" fill="#D8D8D8">
+            <path d="M22,22 L22,0.5 C22,0.223857625 22.2238576,8.13427013e-17 22.5,3.061617e-17 C22.7761424,-2.01103614e-17 23,0.223857625 23,0.5 L23,22 L44.5,22 C44.7761424,22 45,22.2238576 45,22.5 C45,22.7761424 44.7761424,23 44.5,23 L23,23 L23,44.5 C23,44.7761424 22.7761424,45 22.5,45 C22.2238576,45 22,44.7761424 22,44.5 L22,23 L0.5,23 C0.223857625,23 3.38176876e-17,22.7761424 0,22.5 C-3.38176876e-17,22.2238576 0.223857625,22 0.5,22 L22,22 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

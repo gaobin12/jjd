@@ -1,0 +1,143 @@
+@import '../../../less/var.less';
+.view-apply-collect{
+    background-color: #fff;
+    .header {
+        text-align: center;
+        height: 0.6rem;
+        line-height: 0.3rem;
+        font-size: 0.16rem;
+        font-weight: 700;
+        padding: 0.1rem;
+        padding-top: 0.2rem;
+        color: #666;
+    }
+    html:not([data-scale]) .am-list-item:not(:last-child) .am-list-line {
+        border-bottom: 1px solid #F3F3F3;
+    }
+    // 列表内容
+    .xz-money{
+        position: relative;
+    }
+    .am-list-item{
+        min-height: 0;
+        height: 50px;
+        padding: 0rem 0.1rem;
+    }
+    .xz-money span{
+        display: inline-block;
+        position: absolute;
+        right:0.1rem;
+        top: 50%;
+        transform: translate(0,-50%) ;
+    }
+    .xz-money i{
+        font-style: normal;
+        display: inline-block;
+        position: absolute;
+        right:0.1rem;
+        top: 50%;
+        transform: translate(0,-50%) ;
+        color: #000;
+        
+    }
+    .xz-money .am-list-extra{
+        margin-right: 0.05rem;
+    }
+    .am-list-item .am-list-line {
+        border-bottom: 1px solid #F3F3F3 !important;
+        padding-right: 0px;
+    }
+    .am-list-item .am-list-line .am-list-content{
+        font-size: 0.14rem;
+        color: #999;
+    }
+    .am-list{
+        padding-left: 10px;
+        padding-right: 0.1rem;
+    }
+    .am-list-item .am-list-line .am-list-extra{
+        font-size: 0.14rem;
+        color: #333;
+    }
+    .am-list .am-list-body:before,.am-list .am-list-body:after{
+        height: 0;
+    }
+    .am-list .am-list-body div:not(:last-child) .am-list-line:after{
+        height: 0;
+    }
+    .tip {
+        display: block;
+        padding: 0.1rem 0;
+        color: #ff9900;
+        font-size: 0.14rem;
+        text-align: right;
+        -webkit-align-self: flex-start;
+        -ms-flex-item-align: start;
+        align-self: flex-start;
+    }
+    .pddri10 {
+        color: @mainC1;
+        text-align: right;
+        font-size: 0.12rem;
+        padding: 0 0.1rem 0 0;
+        padding-right: 0.1rem;
+    }
+    
+    // 按钮
+    .bottom-btn {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        padding: 0;
+        width: 100%;
+        background: #fff;
+        z-index: 2;
+    }
+    .am-button {
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px;
+    }
+	.bottom-btn .am-button-primary{
+        background-color: #4A505E !important;
+        border-radius: 0;
+        &:before {
+            border:1px solid #4A505E;
+        }
+    }
+
+    // 协议修改样式开始
+    .am-checkbox-agree{
+        margin-left: 20px;
+        a {
+            color: @mainC1;
+        }
+    }
+    .am-checkbox-agree .am-checkbox-agree-label{
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 64px;
+        font-size: 13px;
+        color: #999;
+        margin-left: 0;
+        padding-left: 30px;
+    }
+    .am-checkbox-inner{
+        width: 16px;
+        height: 16px;
+        left: 8px;
+        top: 2px;
+    }
+    // 协议修改样式结束
+    .xz-money.tip  span{
+        right: 2.7rem!important;
+    }
+    .am-checkbox-inner:after {
+        content: '';
+        // display: block;
+        top: -0.5px;
+        right: 4px;
+        display: none;
+    }
+}

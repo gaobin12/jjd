@@ -1,0 +1,47 @@
+@import '../../../less/var.less';
+.view-charge {
+    .am-list{
+        .am-list-body{
+            border:none;
+            .am-list-item{
+                height: 0.5rem;
+                line-height: 0.5rem;
+                margin: 0 0.2rem;
+                padding: 0;
+                .am-list-line{
+                    padding-right: 0;
+                    border-bottom: 1px solid #F3F3F3;
+                    &::before{
+                        height: 0;
+                    }
+                    &::after{
+                        height: 0;
+                    }
+                }
+                .am-input-label {
+                    font-size: 0.14rem;
+                    color: @fontC1;
+                }
+                .am-input-control input {
+                    text-align: right;
+                    font-size: 0.14rem;
+                    color: @fontC1;
+                }
+                .am-input-control input::-webkit-input-placeholder {
+                    font-size: 0.14rem;
+                }
+            }
+            &::before{
+                height: 0;
+            }
+            &::after{
+                height: 0;
+            }
+        }
+    }
+    .com-tipe-div{
+        margin-top: 0.34rem;
+    }
+    
+}
+

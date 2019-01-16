@@ -1,0 +1,92 @@
+.com-tipe-div{
+    width:3.36rem;
+    height:1.22rem;
+    overflow: hidden;
+    background: #F6F7FA;
+    margin: 0.23rem auto 0;
+    padding: 0.12rem;
+    .com-tipe{
+        width: 100%;
+        height: 1rem;
+        overflow: hidden;
+        p{
+            display: block;
+            font-size: 0.12rem;
+            color: #8C94A2;
+            line-height: 0.2rem;
+            margin: 0;
+            position: relative;
+            text-indent: 0.08rem;
+        }
+        p:first-child{text-indent:0}
+        p:first-child::before{
+            display: none;
+            height: 0;
+        }
+        p.dot{
+            text-indent:0
+        }
+        p.dot::before{
+            display: none;
+            height: 0;
+        }
+        // p.dod{
+        //     text-indent: 0.08rem;
+        // }
+        p::before{
+            content: '';
+            position: absolute;
+            left: 0;
+            top:0.08rem;
+            width: 0.04rem;
+            height: 0.04rem;
+            border-radius: 0.02rem;
+            vertical-align: inherit;
+            background: #8C94A2;
+        }
+    }
+    
+    &.active{
+        height:auto;
+        overflow:auto;
+        .com-tipe{
+            width: 100%;
+            height: auto;
+            overflow: auto;
+        }
+    } 
+}
+.com_side_up_div{
+    position: relative;
+    width: 100%;
+    height: 0.21rem;
+    .com_side_up{
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        background: #F6F7FA;
+        width: 0.42rem;
+        height: 0.21rem;
+        margin-left: -0.21rem;
+        border-bottom-left-radius: 0.21rem;
+        border-bottom-right-radius: 0.21rem; 
+        img{
+            display:block;
+            width: 0.16rem;
+            height: 0.09rem;
+            margin: 0.05rem auto;
+            -webkit-transition: -webkit-transform 0.2s ease-out;
+            -moz-transition: -moz-transform 0.2s ease-out;
+            -o-transition: -o-transform 0.2s ease-out;
+            -ms-transition: -ms-transform 0.2s ease-out;
+        }
+        &.active img{
+            -webkit-transform: rotateZ(180deg);
+            -moz-transform: rotateZ(180deg);
+            -o-transform: rotateZ(180deg);
+            -ms-transform: rotateZ(180deg);
+            transform: rotateZ(180deg);
+        }
+    }
+}

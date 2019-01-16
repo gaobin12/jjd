@@ -1,0 +1,99 @@
+
+.common-inputvalid-p{
+    height: 70vh;
+    .am-modal-close{
+        top: 17px;
+    }
+    .am-modal-body{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+    }
+    h4{
+        font-weight: normal;
+        width: 100%;
+        padding: 0 10px;
+        position: relative;
+        min-height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        &::after{
+            content: "";
+            width: 100%;
+            height: 1px;
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            transform: scaleY(.5);
+            transform-origin: 0 0;
+            z-index: 1;
+            border-bottom: 1px solid #eee;
+        }
+    }
+    .common-inputvalid{
+        height: 1.8rem;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: .5rem;
+        position: relative;
+        input{
+            margin: 0;
+            width: .4rem;
+            height: .4rem;
+            text-align: center;
+            border: 1px solid rgba(0,0,0,.2);
+            border-left: 0;
+            border-radius: 0;
+            padding: 0;
+        }
+        input:first-child{
+            border-left: 1px solid rgba(0,0,0,.2)
+        }
+        a{
+            font-size: .14rem;
+            position: absolute;
+            color: #ff8862;
+            top: 1rem;   
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    
+    
+    .input-board{
+        height: 2rem;
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        span{
+            font-size: .16rem;
+            flex: 1 1 33%;
+            height: .5rem;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-top: 1px solid #d1d5db;
+            border-right: 1px solid #d1d5db
+        }
+        span:nth-child(3n){
+            border-right: 0
+        }
+        span:nth-child(10){
+            background: #d1d5db;
+            img{
+                width: .2rem
+            }
+        }
+        span:nth-child(12){
+            background: #d1d5db;
+            img{
+                width: .3rem
+            }
+        }
+    }
+}

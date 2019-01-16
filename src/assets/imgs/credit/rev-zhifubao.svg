@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="83px" height="83px" viewBox="0 0 83 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>画板 copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="15.1690657%" y1="16.1149177%" x2="86.6803678%" y2="84.5598576%" id="linearGradient-1">
+            <stop stop-color="#6DEEFF" offset="0%"></stop>
+            <stop stop-color="#67C9FF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M63.970759,51.0516142 C62.1277178,50.4894606 50.8507187,47.0450315 48.2022914,46.0881893 C49.9394949,43.1170692 51.3252027,39.7153796 52.2370003,36.0100051 L42.3028638,36.0100052 L42.3028638,32.6549924 L54.4833721,32.6549924 L54.4833721,30.5989912 L42.3028638,30.5989912 L42.3028638,25 L37.6187837,25 C36.7773746,25 36.675745,25.7593392 36.675745,25.7593392 L36.675745,30.5989912 L25.2508918,30.5989912 L25.2508918,32.6549923 L36.6756812,32.6549923 L36.6756812,36.0100051 L27.3099438,36.0100052 L27.3099438,37.8785371 L46.2379196,37.8785371 C45.5416865,40.2414619 44.6238319,42.461308 43.5205704,44.4788247 C39.2511697,43.0751554 36.8562427,42.1009125 31.6204681,41.6122987 C21.6887544,40.6813032 19.399665,46.1107975 19.0434512,49.4312631 C18.5061021,54.4891211 23.0029899,58.6244935 29.7420414,58.6244935 C36.4793077,58.6244935 40.9501823,55.53303 45.2194555,50.383279 C50.6895393,52.9820008 63.8785016,58.6647563 63.8785016,58.6647563 L63.970759,51.0516142 Z M28.9978627,55.4210057 C21.8776044,55.4210057 20.7499236,50.9444165 21.1294726,49.0725187 C21.5007332,47.2088767 23.562973,44.7832716 27.5232767,44.7832716 C32.0713617,44.7832716 36.1457917,45.9392046 41.0363826,48.3113378 C37.6011229,52.766081 33.379668,55.4210057 28.9978627,55.4210057 Z" id="path-2"></path>
+        <filter x="-15.6%" y="-14.9%" width="131.1%" height="141.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.317647059   0 0 0 0 0.650980392   0 0 0 0 0.925490196  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="画板-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-9-Copy-6" fill="url(#linearGradient-1)" x="0" y="0" width="83" height="83" rx="41.5"></rect>
+        <g id="形状" fill-rule="nonzero">
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            <use fill="#FFFFFF" xlink:href="#path-2"></use>
+        </g>
+    </g>
+</svg>

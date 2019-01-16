@@ -1,0 +1,147 @@
+.view-report {
+    .report-cause{
+        color: #999;
+        font-size: 0.14rem;
+        img{
+            width: 0.08rem;
+            height: 0.14rem;
+            margin-left: 0.08rem;
+            vertical-align: middle;
+        }
+    }
+    .am-textarea-has-count {
+        margin: 0 0.2rem;
+        border: 1px solid #EEEEEE;
+        border-radius: 2px;
+    }
+    .flex{
+        flex:1;
+    }
+    .report-money{
+        flex: 1;
+        .am-list-item{
+            height: 0.22rem;
+            min-height: 0.22rem;
+            padding-left: 0;
+            .am-list-line{
+                padding-right: 0;
+                input{
+                    text-align: right;
+                    font-size: 0.14rem;
+                }
+                .am-input-extra{
+                    font-size: 0.14rem;
+                }
+            }
+        }
+    }
+}
+
+.report_model{
+   
+    .am-radio-checked .am-radio-inner{
+        width: 15px;
+        height: 15px;
+        background: #F88F5B ;
+        border: none;
+        border-radius: 50%;
+    }
+    .am-radio-inner:after {
+        position: absolute;
+        display: none;
+        top: -2.5px;
+        right: 3px;
+        z-index: 999;
+        width: 4px;
+        height: 12px;
+        border-style: solid;
+        border-width: 0 1px 1px 0;
+        content: " ";
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    .am-radio.am-radio-checked .am-radio-inner:after {
+        border-color: #fff;
+    }
+    .am-radio-inner{
+        width: 15px;
+        height: 15px;
+        background: #fff;
+        border: 1px solid #e4e4e4;
+        border-radius: 50%;
+    }
+    .report_motit{
+        height: 0.58rem;
+        line-height: 0.58rem;
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            background-color: #ddd;
+            display: block;
+            z-index: 1;
+            bottom: 0;
+            right: auto;
+            top: auto;
+            left: 0;
+            width: 100%;
+            height: 1PX;
+            transform-origin: 50% 50%;
+            transform: scaleY(0.5);
+        }
+        p{
+            text-align: center;
+            font-size: 0.18rem;
+            color: #333;
+        }
+        img{
+            position: absolute;
+            left: 0.2rem;
+            top:0.21rem;
+            width: 0.15rem;
+            height: 0.15rem;
+        }
+    }
+    .det_block{
+        display: block;
+        padding-top: 0.1rem;
+    }
+    .det_none{
+        display: none;
+    }
+    .report_btn{
+        display: block;
+        width: 3.55rem;
+        height: 0.5rem;
+        line-height: 0.5rem;
+        background: #4A505E;
+        border-radius: 2px;
+        margin: 0 auto 0.1rem;
+        color: #fff;
+        text-align: center;
+    }
+    .am-list-item{
+        padding: 0 0.2rem;
+        .am-list-line {
+            padding-right: 0;
+            .am-list-brief{
+                color: #999;
+                font-size: 0.12rem;
+                line-height: 0.18rem;
+                width: auto;
+                overflow: hidden;
+                text-overflow:inherit;
+                white-space: normal;
+            }
+            .am-list-content{
+                color: #333;
+                font-size: 0.14rem;
+                line-height: 0.14rem;
+                padding-top: 0.16rem;
+                padding-bottom: 0.14rem;
+            }
+        }
+    } 
+    
+}

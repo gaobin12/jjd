@@ -1,0 +1,33 @@
+.view-login {
+    .face-active{
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            top:50%;
+            left:50%;
+            width: 0.22rem;
+            height: 0.22rem;
+            background: url('/imgs/credit/mode-checkbox-bg.svg') no-repeat;
+            background-size: 0.22rem 0.22rem;
+            margin-left:-0.11rem;
+            margin-top:-0.11rem;
+            text-align: center;
+            z-index: 2;
+        }
+        img{
+            position: relative;
+            border-radius: 50%;
+            opacity: 0.5;
+        }
+    }
+    .data-face{
+        width: 0.82rem;
+        height: 0.82rem;
+        margin: 0 auto;
+        img{
+            width: 0.82rem;
+            height: 0.82rem;
+        }
+    }
+}

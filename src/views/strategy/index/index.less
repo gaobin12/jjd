@@ -1,0 +1,18 @@
+
+.view-strategy {
+    .img-one {
+        margin: 0.1rem 0.1rem 0;
+        img {
+            width: 100%;
+            float: left;
+        }
+        &::after{
+            content: "";
+            display: block;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+            clear: both;
+        }        
+    }
+}

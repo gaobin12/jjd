@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="5px" viewBox="0 0 9 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>箭头向下</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="箭头向下" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M6.85675268,-1.85754331 C6.76537995,-1.94870325 6.64085133,-2 6.51092306,-2 C6.38099479,-2 6.25646617,-1.94870325 6.16509344,-1.85754331 L2.14434904,2.16299818 C2.05197816,2.25317306 2,2.37606917 2,2.50429414 C2,2.63251912 2.05197816,2.75541523 2.14434904,2.84559011 L6.16509344,6.85863058 C6.35608986,7.04712314 6.66575625,7.04712314 6.85675268,6.85863058 C7.04774911,6.67013803 7.04774911,6.36453121 6.85675268,6.17603865 L3.20083953,2.50054364 L6.85675268,-1.18245239 C7.04415189,-1.36948367 7.04415189,-1.67051202 6.85675268,-1.85754331 Z" id="Shape" fill="#E4E4E4" fill-rule="nonzero" transform="translate(4.500000, 2.500000) scale(-1, 1) rotate(-90.000000) translate(-4.500000, -2.500000) "></path>
+    </g>
+</svg>
